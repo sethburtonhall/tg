@@ -1,0 +1,10 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/tg/wp-content/themes/bones",
+      "folder_exclude_patterns": ["library/translation", "library/scss/.sass-cache"],
+      "file_exclude_patterns":["favicon.ico", "tg_wp.sublime-workspace"]
+		}
+	]
+}

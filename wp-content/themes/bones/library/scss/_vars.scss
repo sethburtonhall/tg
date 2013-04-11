@@ -1,0 +1,74 @@
+/*********************
+BRAND
+*********************/
+
+$brand-color:        $graySlate;
+$brand-subColor:     #769171;
+
+$base-space:        20px;
+$brand-round:        5px!default;
+
+
+/*********************
+COLORS
+*********************/
+
+$alert-yellow:      #ebe16f;
+$alert-red:         #fbe3e4;
+$alert-green:       #e6efc2;
+$alert-blue:        #d5edf8;
+
+$black:             #000;
+$white:             #fff;
+
+$bones-pink:        #f01d4f;
+$bones-blue:        #1990db;
+
+$link-color:        $bones-pink;
+$link-hover:        darken($link-color, 9%);
+
+
+/*********************
+TYPOGRAPHY
+*********************/
+
+$sans-serif:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif:             "Georgia", Cambria, Times New Roman, Times, serif;
+
+
+/*  To embed your own fonts, use this syntax
+  and place your fonts inside the
+  library/fonts folder. For more information
+  on embedding fonts, go to:
+  http://www.fontsquirrel.com/
+  Be sure to remove the comment brackets.
+*/
+
+/*  @font-face {
+      font-family: 'Font Name';
+      src: url('library/fonts/font-name.eot');
+      src: url('library/fonts/font-name.eot?#iefix') format('embedded-opentype'),
+             url('library/fonts/font-name.woff') format('woff'),
+             url('library/fonts/font-name.ttf') format('truetype'),
+             url('library/fonts/font-name.svg#font-name') format('svg');
+      font-weight: normal;
+      font-style: normal;
+  }
+*/
+
+/*********************
+FONT SIZES
+*********************/
+$giga-size:         96px!default;
+$mega-size:         72px!default;
+$kilo-size:         48px!default;
+
+$h1-size:           36px!default; // .alpha
+$h2-size:           30px!default; // .beta
+$h3-size:           24px!default; // .gamma
+$h4-size:           20px!default; // .delta
+$h5-size:           16px!default; // .epsilon
+$h6-size:           14px!default; // .zeta
+
+$milli-size:        12px!default;
+$micro-size:        10px!default;

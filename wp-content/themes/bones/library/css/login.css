@@ -1,0 +1,92 @@
+/******************************************************************
+Site Name: Training Ground Custom Theme
+Author: Seth Hall
+Author URI: http://www.middle8media.com
+
+Stylesheet: Login Stylesheet
+
+This stylesheet is loaded (if admin.php is setup in your
+functions file) on the login page. This way you can style
+the login page. It won't affect any other page, admin or front-end.
+
+For more info, check out the codex:
+http://codex.wordpress.org/Creating_Admin_Themes
+
+******************************************************************/
+/* line 18, ../scss/login.scss */
+body.login {
+  background: url(../images/login-bg.jpg) no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* the form box */
+/* line 28, ../scss/login.scss */
+.login h1 a {
+  background: url(../images/login-logo.png) no-repeat top center;
+  width: 313px;
+  height: 85px;
+  text-indent: -9999px;
+  overflow: hidden;
+  padding-bottom: 10px;
+  margin: auto;
+  display: block;
+  background-size: 100%;
+}
+
+/* line 40, ../scss/login.scss */
+.login form {
+  border: none;
+  border-radius: 3px 3px 0 0;
+}
+
+/* line 45, ../scss/login.scss */
+.login #nav, .login #backtoblog {
+  margin-left: 8px;
+  padding: 10px 24px;
+  font-weight: normal;
+  background: white;
+  -webkit-box-shadow: rgba(200, 200, 200, 0.7) 0 4px 10px -1px;
+  box-shadow: rgba(200, 200, 200, 0.7) 0 4px 10px -1px;
+  border-radius: 0px;
+}
+
+/* line 55, ../scss/login.scss */
+.login #backtoblog {
+  border-radius: 0 0 3px 3px;
+}
+
+/* line 59, ../scss/login.scss */
+form {
+  margin-left: 8px;
+  padding: 26px 24px 46px;
+  font-weight: normal;
+  background: white;
+  border: 1px solid #E5E5E5;
+  border-radius: 3px;
+  box-shadow: none;
+}
+
+/* line 69, ../scss/login.scss */
+body form .input {
+  font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+  width: 97%;
+  padding: 3px;
+  margin-top: 2px;
+  margin-right: 6px;
+  margin-bottom: 16px;
+  border: 1px solid #E5E5E5;
+  background: #FBFBFB;
+  outline: none;
+  box-shadow: inset 1px 1px 2px rgba(200, 200, 200, 0.2);
+}
+
+/*
+You'll have to override some of the default styles
+but since we're referencing the id, it should be easy.
+*/
+/* login button*/

@@ -1,0 +1,1279 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"letter-",
+				"letter-spacing"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"divider",
+				"divider2	divider2"
+			],
+			[
+				"div",
+				"div  (element)"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"image",
+				"%image	image"
+			],
+			[
+				"octo",
+				"octo	Backtick Code"
+			],
+			[
+				"border-ra",
+				"border-radius	zen:css_properties"
+			],
+			[
+				"text-d",
+				"text-decoration"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"img",
+				"img	Image - Placeholder"
+			],
+			[
+				"url",
+				"url(image-url.gif)"
+			],
+			[
+				"border-b",
+				"border-bottom"
+			],
+			[
+				"ba",
+				"basemargin"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"log",
+				"logo-grid"
+			],
+			[
+				"font-w",
+				"font-weight	zen:css_properties"
+			],
+			[
+				"color",
+				"color"
+			],
+			[
+				"site",
+				"site-title"
+			],
+			[
+				"backgroudn",
+				"background-image"
+			],
+			[
+				"lorem",
+				"lorem	lorem"
+			],
+			[
+				"Twi",
+				"twitter-bootstrap"
+			],
+			[
+				"last",
+				":last-child"
+			],
+			[
+				"line-spac",
+				"letter-spacing"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"base",
+				"basepadding"
+			],
+			[
+				"display",
+				"display	display: block"
+			],
+			[
+				"bo",
+				"border	border: size style color"
+			],
+			[
+				"last-of-type",
+				":last-of-type"
+			],
+			[
+				"vertical",
+				"vertical-align"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"p",
+				"padding	padding-left: length"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"ali",
+				"vertical-align"
+			],
+			[
+				"liste",
+				"list-style"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"letter",
+				"letter-spacing"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"link",
+				"link	link - stylesheet"
+			],
+			[
+				"list",
+				"list	list-style-type: numeric"
+			],
+			[
+				"dash",
+				":dashed"
+			],
+			[
+				"double",
+				":groove"
+			],
+			[
+				"padd",
+				"padding	padding-bottom: length"
+			],
+			[
+				"op",
+				"opacity	opacity: [for Safari, FF & IE]"
+			],
+			[
+				"video",
+				"video: <video>"
+			],
+			[
+				"html",
+				"html: html"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 2884,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "library/css/ie.css",
+			"settings":
+			{
+				"buffer_size": 17158,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "library/css/style.css",
+			"settings":
+			{
+				"buffer_size": 41634,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "functions.php",
+			"settings":
+			{
+				"buffer_size": 5964,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "library/scss/global.scss",
+			"settings":
+			{
+				"buffer_size": 2942,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "library/scss/ie.scss",
+			"settings":
+			{
+				"buffer_size": 1629,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markdown",
+				"Pandoc: Render Markdown to temp HTML and View"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markdo",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"mak",
+				"Set Syntax: Markdown"
+			],
+			[
+				"lint",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"lorem",
+				"Snippet: lorem - Medium paragraph <p>"
+			],
+			[
+				"octopress",
+				"Snippet: Octopress - Insert code block"
+			],
+			[
+				"div",
+				"Snippet: divider2"
+			],
+			[
+				"mail",
+				"Snippet: <a href=\"mailto:\">"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"divi",
+				"Snippet: divider2"
+			],
+			[
+				"linter",
+				"Preferences: SublimeLint – User"
+			],
+			[
+				"comb",
+				"Sort via CSScomb"
+			],
+			[
+				"diver",
+				"Snippet: divider2"
+			],
+			[
+				"<p>",
+				"Snippet: <p>"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet script",
+				"Snippet: script-src"
+			],
+			[
+				"bootstrapsta",
+				"Snippet: Bootstrap starter"
+			],
+			[
+				"bootstra",
+				"Snippet: Bootstrap starter"
+			],
+			[
+				"snippet",
+				"Snippet: html"
+			],
+			[
+				"doctyp",
+				"Snippet: DOCTYPE HTML"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"fetch",
+				"Fetch: Manage"
+			],
+			[
+				"prefixr",
+				"Preferences: Prefixr Key Bindings – Default"
+			],
+			[
+				"prefix",
+				"Preferences: Prefixr Key Bindings – User"
+			],
+			[
+				"finder",
+				"Finder: Open here"
+			],
+			[
+				"zurb",
+				"Snippet: Zurb 2 Column Layout"
+			],
+			[
+				"snipp",
+				"Snippet: + Shortcut to Include"
+			],
+			[
+				"ipad",
+				"Snippet: ipad"
+			],
+			[
+				"snippet ",
+				"Snippet: ipad"
+			],
+			[
+				"foundation",
+				"Snippet: Zurb Foundation - New Page"
+			],
+			[
+				"boots",
+				"Snippet: Bootstrap breadcrumb"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"nav",
+				"Snippet: nav - Placeholder"
+			],
+			[
+				"lorem <p",
+				"Snippet: lorem - Medium paragraph <p>"
+			],
+			[
+				"snippetnav",
+				"Snippet: nav - Placeholder"
+			],
+			[
+				"ntml",
+				"Snippet: html"
+			],
+			[
+				"gistop",
+				"Gist: Open Gist"
+			],
+			[
+				"gist",
+				"Gist: Create Public Gist"
+			],
+			[
+				"snippet nav",
+				"Snippet: nav - Placeholder"
+			],
+			[
+				"sn",
+				"Snippet: nav - Placeholder"
+			],
+			[
+				"shop",
+				"Shopify: Edit asset"
+			],
+			[
+				"shopi",
+				"Shopify: Edit asset"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"shopify",
+				"Shopify: Choose store"
+			],
+			[
+				"sideb",
+				"View: Toggle Side Bar"
+			],
+			[
+				"min",
+				"View: Toggle Minimap"
+			],
+			[
+				"snippet ips",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"fet",
+				"Fetch"
+			],
+			[
+				"sscss",
+				"Set Syntax: CSS"
+			],
+			[
+				"fe",
+				"Fetch: Manage remote files"
+			],
+			[
+				"feth",
+				"Fetch: Manage remote files"
+			],
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"padk",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: <head>"
+			],
+			[
+				"html5",
+				"Set Syntax: HTML5"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 122.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/tg/wp-content/themes/bones/library/scss/login.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/tg/wp-content/themes/bones/library/scss/style.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/tg/wp-content/themes/bones/library/scss/ie.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/tg/wp-content/themes/bones/library/css/login.css",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/footer.php",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/functions.php",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/header.php",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/style.css",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/page-faq.php",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/page-contact.php",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/page-about.php",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/page-landing.php",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/registration/register.php",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/single.php",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/index.php",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/sidebar.php",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/blogs/index.php",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/header-home.php",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/js/fittext.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/blog.php",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/landing.php",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/contact.php",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/about.php",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/css/frisco.css",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/scss/global.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/scss/ui/_wrappers.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/scss/base/_base.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/scss/base/generic/_nav.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/scss/ui/_buttons.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/scss/ui/_footer.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/scss/ui/_hero.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/scss/ui/_typography.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/scss/ui/_nav.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/config.rb",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/header2.php",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/frisco-for-buddypress/frisco.css",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-content/themes/theonepager_child/style.css",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-config.php",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/teal/wp-config-sample.php",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/scss/ui/_typography.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/js/nav.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/scss/ui/_dashboard.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/views/dashboard.html",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/lib/helpers.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/scss/ui/_login-page.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/js/signup.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/views/nav.html",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/server/lib/server.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/client.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/scss/ui/_wrappers.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/js/validate.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/scss/ui/_nav.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/js/dashboard.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/lib/routes.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/views/settings.html",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/scss/ui/_footer.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/server/lib/accounts.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/scss/color/_colorMeSass.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/scss/ui/_buttons.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/views/login.html",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/scss/base/generic/_nav.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/scss/ui/_bootstrap-overrides.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/scss/ui/_credit.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/scss/ui/_hero.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/scss/ui/_validate.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/scss/ui/_pricing.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/views/landing.html",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/views/credit-card.html",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/views/about.html",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/views/privacy.html",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/views/terms.html",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/app.html",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/server/lib/email.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/.meteor/local/build/static_cacheable/packages/jquery-validate/lib/jquery-validate.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/scss/global.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/server/lib/password.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/js/password.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/.meteor/local/build/server/node_modules/handlebars/node_modules/uglify-js/test/unit/compress/test/var.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/README.md",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/scss/base/_base.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/scss/base/generic/_clearfix.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/views/nav.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/village/client/views/login.js",
+		"/Users/M8M/Library/Application Support/Sublime Text 2/Settings/SideBarEnhancements.json",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/web-app/client/config.rb",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/web-app/server/lib/server.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/web-app/client/views/nav.html",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/web-app/client/lib/helpers.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/web-app/client/app.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/web-app/server/lib/config.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/web-app/client/lib/config.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/web-app/client/lib/helpers",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/web-app/client/helpers.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/web-app/client/views/login.html",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/web-app/.meteor/local/build/server/node_modules/http-proxy/test/core/simple/test-http-contentLength0.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/web-app/client/views/nav.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/web-app/README.md",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/web-app/client/views/landing.html",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/web-app/client/views/login.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/web-app/client/lib/routes.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/web-app/client/app.html",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/web-app/.meteor/packages",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/web-app/client/lib/router.js",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/web-app/smart.lock",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/web-app/smart.json",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/web-app/.gitignore",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/flim-flam/smart.lock",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/flim-flam/smart.json",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/octopress/source/_includes/custom/head.html",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/octopress/source/_posts/2013-01-19-tame-the-wild-with-statamic.markdown",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/octopress/source/_posts/2013-01-24-chrome-web-inspector-dock-to-right.markdown",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/octopress/_config.yml",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/octopress/sass/custom/_styles.scss",
+		"/Users/M8M/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/octopress/source/_posts/2012-11-20-web-design-and-development-workflow-and-appstack.markdown",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/ringfalcon/open",
+		"/Users/M8M/Library/Application Support/Sublime Text 2/Packages/User/Markdown.sublime-settings",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/octopress/sass/custom/_colors.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/octopress/sass/custom/_layout.scss",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/octopress/source/about/index.markdown",
+		"/Users/M8M/.zshrc",
+		"/Users/M8M/.bash_profile",
+		"/Users/M8M/.bashrc",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/octopress/source/_includes/custom/footer.html",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/octopress/source/_posts/2012-11-16-happy-winter.markdown",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/octopress/source/_posts/2012-11-16-what-am-i-doing-here.markdown",
+		"/Users/M8M/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/octopress/source/_posts/2012-11-16-2nd-post.markdown"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"login",
+			"Site Name:\nAuthor:",
+			"Site Name:",
+			"3",
+			"theme",
+			"side",
+			"images",
+			"smoke",
+			"white",
+			"column",
+			"grid",
+			"button",
+			"#search",
+			"gradient",
+			"frisco-for-buddypress",
+			"media",
+			"header",
+			"<?php bloginfo('stylesheet_directory'); ?>",
+			"nav",
+			"one column no sidebar ",
+			"<?php",
+			"sidebar",
+			"html",
+			"required",
+			"pattern",
+			"confirm",
+			"placeholder",
+			"dashboard",
+			"large",
+			"A Form",
+			"white",
+			"$brand-white",
+			"white",
+			"signup",
+			"sendform",
+			"verify",
+			"email",
+			"confirm",
+			"data-conditional=\"confirm\" ",
+			"id=\"email",
+			"confirm",
+			"autofocus",
+			"help",
+			"events",
+			"none",
+			"5",
+			"0.3s",
+			"save",
+			"spac",
+			"subtitle",
+			"Octopress-Blog",
+			"archive",
+			"blog",
+			"noki",
+			"w.png",
+			"wi",
+			"''\n",
+			"w.png",
+			"png",
+			"click",
+			"160",
+			"here",
+			"home",
+			"box",
+			"href=\"fruitcake.php\"",
+			"style=\"float:left;\"",
+			"please",
+			"application",
+			"please",
+			"bylaws",
+			"float",
+			"em",
+			"r",
+			"em",
+			"font",
+			"font-size",
+			"font",
+			"#",
+			"px",
+			"#about",
+			"fruit",
+			"grids",
+			"top",
+			"5px",
+			"header",
+			"614px",
+			"content",
+			"links",
+			"prefix",
+			"pref",
+			"content",
+			"container_12",
+			"container-12",
+			"scrollspy",
+			"easing",
+			"Fruitcake",
+			"top",
+			"10",
+			"contact",
+			"h3",
+			"linear",
+			"ease",
+			"options",
+			"1px",
+			"20deg",
+			"90deg",
+			"8s",
+			"10px",
+			"6s",
+			"3s",
+			"5s",
+			"bounce",
+			"6s",
+			"8px",
+			"50",
+			"8px",
+			"1s",
+			"20px",
+			"0",
+			"15px",
+			"30px",
+			"20px",
+			"bold",
+			"E3",
+			"top",
+			"text",
+			"content",
+			"logo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"container",
+			"h4",
+			"h3",
+			"$basespace",
+			"../images",
+			"darkgray",
+			"$darkgray",
+			"$j",
+			"h3",
+			"http://qbeasy.com",
+			"#fff",
+			"&",
+			"big",
+			"30",
+			"25",
+			"36",
+			"h4",
+			"Norma",
+			"@font-awesome",
+			"@fontface",
+			"@textcolor",
+			"color",
+			"Governor",
+			"Average",
+			"headphones",
+			"headphone",
+			"h3",
+			"Cubano",
+			"message",
+			"h1",
+			"h2",
+			"bottom-pic",
+			"ad2.jpg",
+			"ad1.jpg",
+			"nav"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "style.css",
+					"settings":
+					{
+						"buffer_size": 2884,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2883,
+								2883
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"xiki": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1204.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "library/css/ie.css",
+					"settings":
+					{
+						"buffer_size": 17158,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								107,
+								107
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"xiki": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "library/css/style.css",
+					"settings":
+					{
+						"buffer_size": 41634,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								165,
+								68
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"xiki": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "functions.php",
+					"settings":
+					{
+						"buffer_size": 5964,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1101,
+								1101
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"xiki": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 278.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "library/scss/global.scss",
+					"settings":
+					{
+						"buffer_size": 2942,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								165,
+								165
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"xiki": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "library/scss/ie.scss",
+					"settings":
+					{
+						"buffer_size": 1629,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								165,
+								165
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"xiki": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 142.0
+	},
+	"output.gjslint_result_view":
+	{
+		"height": 166.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"button",
+				"client/scss/ui/_buttons.scss"
+			],
+			[
+				"login",
+				"client/scss/ui/_login-page.scss"
+			],
+			[
+				"help",
+				".meteor/local/build/server/node_modules/handlebars/node_modules/uglify-js/test/unit/compress/test/var.js"
+			],
+			[
+				"stylesheets",
+				".meteor/local/build/server/node_modules/http-proxy/test/core/simple/test-http-contentLength0.js"
+			],
+			[
+				"chrome",
+				"source/_posts/2013-01-24-chrome-web-inspector-dock-to-right.markdown"
+			],
+			[
+				"style",
+				"sass/custom/_styles.scss"
+			],
+			[
+				"page",
+				"source/_layouts/page.html"
+			],
+			[
+				"posts",
+				"source/_posts/2012-11-16-2nd-post.markdown"
+			],
+			[
+				"config",
+				"_config.yml"
+			],
+			[
+				"confi",
+				"_config.yml"
+			],
+			[
+				"_style",
+				".themes/classic/sass/custom/_styles.scss"
+			],
+			[
+				"rake",
+				"Rakefile"
+			],
+			[
+				"defa",
+				"TIFN/_layouts/default.html"
+			],
+			[
+				"fruit",
+				"TIFN/scss/_fruit-cake.scss"
+			],
+			[
+				"global",
+				"TIFN/scss/global_v1.0.scss"
+			],
+			[
+				"eas",
+				"js/jquery.easing.js"
+			],
+			[
+				"setting",
+				"config/settings.yml"
+			],
+			[
+				"global.scss",
+				"wp-content/themes/standard-child-theme-kit/scss/global.scss"
+			],
+			[
+				"ifewell",
+				"ife/wp-content/themes/standard-child-theme-kit/scss/_wells.scss"
+			],
+			[
+				"nav",
+				"nav.php"
+			],
+			[
+				"",
+				"/Users/M8M/Dropbox/M8M/HORSE/character studies"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true
+}
