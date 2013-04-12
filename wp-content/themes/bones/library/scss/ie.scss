@@ -20,12 +20,14 @@ import the mixins file so SASS can understand the variables.
 */
 
 /* import mixins */
-@import "mixins";
+@import "vars";
 
-@import "grid";
-@import "481up";
-@import "768up";
-@import "1030up";
+@import "base/mixins";
+
+@import "base/grid";
+@import "base/481up";
+@import "base/768up";
+@import "base/1030up";
 
 /* 
 you can call the larger styles if you want, but there's really no need 

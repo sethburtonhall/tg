@@ -1,6 +1,7 @@
 @import "vars";
 @import "base/base";
 
+@import "ui/header";
 @import "ui/typography";
 
 /*
@@ -9,4 +10,8 @@
 ******************************
 */
 
+body {
+  position: relative;
+  background-color: $brand-subColor;
+}
 

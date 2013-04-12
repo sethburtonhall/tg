@@ -162,4 +162,11 @@ function bones_wpsearch($form) {
 } // don't remove this bracket!
 
 
+// Add navigation
+register_nav_menus( array(
+	'headerNav' => __( 'Header Navigation', 'bones' ),
+	'mainNav' => __( 'Main Navigation', 'bones' ),
+	'footerNav' => __( 'Footer Navigation', 'bones' ),
+) );
+
 ?>

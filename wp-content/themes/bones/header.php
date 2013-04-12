@@ -45,19 +45,30 @@
 
 			<header class="header" role="banner">
 
-				<div id="inner-header" class="wrap clearfix">
+				<div class="header-img"></div> <!-- end .header-img -->
+					<div class="header-gradient"></div> <!-- end .header-gradient -->
 
-					<!-- to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> -->
-					<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
+					<div id="inner-header" class="wrap clearfix">
 
-					<!-- if you'd like to use the site description you can un-comment it below -->
-					<?php // bloginfo('description'); ?>
+						<div class="fourcol first clearfix">
+							<a href="<?php echo home_url(); ?>" rel="nofollow">
+								<div class="logo"></div>
+							</a>
+						</div>
+
+						<div class="eightcol last clearfix">
+							<nav role="navigation" class="header-nav">
+								<?php bones_header_nav(); ?>
+							</nav>
+						</div>
+
+						<div class="twelvecol first">
+							<nav role="navigation">
+								<?php bones_main_nav(); ?>
+							</nav>
+						</div>
 
 
-					<nav role="navigation">
-						<?php bones_main_nav(); ?>
-					</nav>
-
-				</div> <!-- end #inner-header -->
+					</div> <!-- end #inner-header -->
 
 			</header> <!-- end header -->
