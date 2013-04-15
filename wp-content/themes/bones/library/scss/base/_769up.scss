@@ -31,19 +31,61 @@ LAYOUT & GRID STYLES
 HEADER STYLES
 *********************/
 
-.header {}
+.header-nav {
+	width: 479px;
+  font-size: $h3-size;
+  margin: $base-space + 10 auto 0;
+}
 
-	#logo {}
+.header-gradient {
+  height: 110px;
+}
+
+.logo {
+  margin: $base-space 0;
+}
 
 /*********************
 NAVIGATION STYLES
 *********************/
+.main-nav {
+	border-top: 0;
+	padding: 24px 0 0 0;
+	height: 52px;
+	  .nav li {
+	    border-right: 2px solid $brand-black;
+	   }
+}
 
-.nav {
-	background: #eee;
-	border: 0;
+.main-nav-wrapper {
+    background: transparent;
+    margin: 0;
+    font-size: 1em;
+    border-top: 0px;
+}
 
-	li {
+#nav ul li {
+    display: inline-block;
+    float: left;
+    clear: none;
+    a {
+    	padding: 7px 11px;
+    	border-bottom: 0px;
+    }
+    &:first-child a {
+    padding-left: 0px;
+    }
+}
+
+.js #nav {
+    position: relative;
+    max-height: none;
+  }
+  #nav-toggle {
+    display: none;
+  }
+
+.nav li {
 		float: left;
 		position: relative;
 
@@ -121,7 +163,7 @@ NAVIGATION STYLES
 			display: block;
 		}
 
-	} /* end .menu ul li */
+	} /* end .menu .nav ul li */
 
 	/* highlight current page */
 	li.current-menu-item,
@@ -130,7 +172,19 @@ NAVIGATION STYLES
 		a {}
 	}  /* end current highlighters */
 
-} /* end .nav */
+/*********************
+SLIDER STYLES
+*********************/
+
+.home #content {
+  margin: 12px 0 0;
+}
+
+.flex-caption {
+	bottom: -40px;
+	padding: 40px; 
+  font-size: 20px;
+}
 
 /*********************
 SIDEBARS & ASIDES

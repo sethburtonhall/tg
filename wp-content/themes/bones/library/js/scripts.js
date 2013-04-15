@@ -66,9 +66,62 @@ jQuery(document).ready(function($) {
     }
     
 	
-	// add all your scripts here
-	
- 
+// add all your scripts here
+
+
+// responsive-nav.js
+var navigation = responsiveNav("#nav", {
+  animate: true, // Boolean: Use CSS3 transitions, true or false
+  transition: 100, // Integer: Speed of the transition, in milliseconds
+  label: "Menu", // String: Label for the navigation toggle
+  insert: "before", // String: Insert the toggle before or after the navigation
+  customToggle: "", // Selector: Specify the ID of a custom toggle
+  openPos: "relative", // String: Position of the opened nav, relative or static
+  jsClass: "js", // String: 'JS enabled' class which is added to <html> el
+  init: function(){}, // Function: Init callback
+  open: function(){}, // Function: Open callback
+  close: function(){} // Function: Close callback
+});
+
+// flexslider.js
+$(window).load(function() {
+  // The slider being synced must be initialized first
+  $('#carousel').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: true,
+    slideshow: false,
+    itemWidth: 190,
+    itemMargin: 5,
+    move: 1,
+    asNavFor: '#slider',
+  });
+   
+  $('#slider').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: true,
+    slideshow: true,
+    directionNav: true,
+    prevText: "",
+    nextText: "",
+    sync: "#carousel"
+  });
+});
+
+// $(function() {
+//   $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+// });
+
+// $('#nav li a').click(function () {
+//     $('#nav li a').removeClass('active');
+//     $(this).parent('li').addClass('active');
+// });
+
+// fitText.js
+// $(".flex-caption").fitText(1.2, { minFontSize: '14px', maxFontSize: '30px' })
+
+
 }); /* end of as page load scripts */
 
 
@@ -106,3 +159,16 @@ jQuery(document).ready(function($) {
 	w.addEventListener( "orientationchange", restoreZoom, false );
 	w.addEventListener( "devicemotion", checkTilt, false );
 })( this );
+
+// Responsive Main Nav
+
+$(document).ready(function() {
+  $('body').addClass('js');
+  var $menu = $('#main-menu'),
+    $menulink = $('.menu-link');
+  
+$menulink.click(function() {
+  $menulink.toggleClass('active');
+  $menu.toggleClass('active');
+  return false;
+});});

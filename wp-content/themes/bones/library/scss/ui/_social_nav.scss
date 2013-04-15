@@ -1,0 +1,19 @@
+.social-nav {
+  margin: 20px auto;
+  width: 310px;
+  height: 30px;
+}
+
+#nav .social-nav ul li{
+  display: inline;
+  a {
+  border: 0px;
+  float: left;
+  padding: 2px;
+  width: 44px;
+  }
+  img {
+    width: 28px;
+    height: 28px;
+  }
+}

@@ -34,6 +34,10 @@
 		<?php wp_head(); ?>
 		<!-- end of wordpress head -->
 
+		<script src="//cdnjs.cloudflare.com/ajax/libs/FitText.js/1.1/jquery.fittext.min.js"></script>
+		<script src="<?php echo get_stylesheet_directory_uri() ?>/library/js/libs/responsive-nav.js"></script>
+		<script src="<?php echo get_stylesheet_directory_uri() ?>/library/js/libs/jquery.flexslider.js"></script>
+
 		<!-- drop Google Analytics Here -->
 		<!-- end analytics -->
 
@@ -50,23 +54,39 @@
 
 					<div id="inner-header" class="wrap clearfix">
 
-						<div class="fourcol first clearfix">
+						<div class="fivecol first clearfix">
 							<a href="<?php echo home_url(); ?>" rel="nofollow">
 								<div class="logo"></div>
 							</a>
 						</div>
 
-						<div class="eightcol last clearfix">
-							<nav role="navigation" class="header-nav">
+						<div class="sevencol last clearfix">
+							<nav role="navigation" class="header-nav mask">
 								<?php bones_header_nav(); ?>
 							</nav>
 						</div>
 
 						<div class="twelvecol first">
-							<nav role="navigation">
-								<?php bones_main_nav(); ?>
-							</nav>
+							<div class="main-nav-wrapper">
+								<nav id="nav" role="navigation" class="main-nav">
+									<?php bones_main_nav(); ?>
+									<div class="social-nav">
+										<ul>
+											<li><a href="" title="Instagram"><img src="http://localhost:8888/wp-content/themes/bones/library/images/instagram.png" alt="Instgram"></a></li>
+											<li><a href="https://twitter.com/Training_Ground" title="Twitter"><img src="http://localhost:8888/wp-content/themes/bones/library/images/twitter.png" alt="Twitter"></a></li>
+											<li><a href="https://www.facebook.com/ColoradoTG" title="Facebook"><img src="http://localhost:8888/wp-content/themes/bones/library/images/facebook.png" alt="Facebook"></a></li>
+											<li><a href="" title="Vimeo"><img src="http://localhost:8888/wp-content/themes/bones/library/images/vimeo.png" alt="Vimeo"></a></li>
+											<li><a href="http://www.flickr.com/photos/trainingground/" title="Flickr"><img src="http://localhost:8888/wp-content/themes/bones/library/images/flickr.png" alt="Flickr"></a></li>
+											<li><a href="" title="Tumblr"><img src="http://localhost:8888/wp-content/themes/bones/library/images/tumblr.png" alt="Tumblr"></a></li>
+											<li><a href="" title="More"><img src="http://localhost:8888/wp-content/themes/bones/library/images/more.png" alt="More"></a></li>
+										</ul>
+									</div>	
+								</nav>
+
+
+							</div>
 						</div>
+
 
 
 					</div> <!-- end #inner-header -->

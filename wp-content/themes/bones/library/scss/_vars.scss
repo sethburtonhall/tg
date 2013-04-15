@@ -5,7 +5,8 @@ BRAND
 $brand-color:        #729251;
 $brand-subColor:     #D3D8C4;
 $brand-orange:       #D98339;
-
+$brand-black:        #1e2217;
+$brand-white:        #D3D8C5;
 
 $base-space:        20px;
 $brand-round:        5px!default;
@@ -31,34 +32,6 @@ $link-hover:        darken($link-color, 9%);
 
 
 /*********************
-TYPOGRAPHY
-*********************/
-
-$sans-serif:        "Helvetica Neue", Helvetica, Arial, sans-serif;
-$serif:             "Georgia", Cambria, Times New Roman, Times, serif;
-
-
-/*  To embed your own fonts, use this syntax
-  and place your fonts inside the
-  library/fonts folder. For more information
-  on embedding fonts, go to:
-  http://www.fontsquirrel.com/
-  Be sure to remove the comment brackets.
-*/
-
-/*  @font-face {
-      font-family: 'Font Name';
-      src: url('library/fonts/font-name.eot');
-      src: url('library/fonts/font-name.eot?#iefix') format('embedded-opentype'),
-             url('library/fonts/font-name.woff') format('woff'),
-             url('library/fonts/font-name.ttf') format('truetype'),
-             url('library/fonts/font-name.svg#font-name') format('svg');
-      font-weight: normal;
-      font-style: normal;
-  }
-*/
-
-/*********************
 FONT SIZES
 *********************/
 $giga-size:         96px!default;
@@ -74,3 +47,62 @@ $h6-size:           14px!default; // .zeta
 
 $milli-size:        12px!default;
 $micro-size:        10px!default;
+
+
+$sans-serif:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif:             "Georgia", Cambria, Times New Roman, Times, serif;
+
+
+/*********************
+TYPOGRAPHY
+*********************/
+
+
+
+@font-face {
+    font-family: 'gearedThin';
+    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-light-webfont.eot');
+    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-light-webfont.woff') format('woff'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-light-webfont.ttf') format('truetype'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-light-webfont.svg#geared_slabthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'geared';
+    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-webfont.eot');
+    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-webfont.woff') format('woff'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-webfont.ttf') format('truetype'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-webfont.svg#geared_slabregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gearedBold';
+    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-bold-webfont.eot');
+    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-bold-webfont.woff') format('woff'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-bold-webfont.ttf') format('truetype'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-bold-webfont.svg#geared_slabbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gearedExtraBold';
+    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-extrabold-webfont.eot');
+    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-extrabold-webfont.woff') format('woff'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-extrabold-webfont.ttf') format('truetype'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-extrabold-webfont.svg#geared_slabextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

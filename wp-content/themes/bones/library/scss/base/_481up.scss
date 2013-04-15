@@ -14,12 +14,15 @@ so you still want to keep it pretty light and simply expand
 upon your base.scss styles.
 
 ******************************************************************/
-
-
 	
 /*********************
 NAVIGATION STYLES
 *********************/
+
+.header-nav {
+	width: 479px;
+  font-size: $h3-size;
+}
 
 .nav {}
 
@@ -66,6 +69,18 @@ NAVIGATION STYLES
 			}  /* end current highlighters */
 		} /* end .menu ul */
 	} /* end .menu */
+
+#menu-item-53, #menu-item-54 {
+  display: block;
+}
+
+/*********************
+SLIDER STYLES
+*********************/
+
+.home #content {
+  margin: 0;
+}
 
 /*********************
 POSTS & CONTENT STYLES

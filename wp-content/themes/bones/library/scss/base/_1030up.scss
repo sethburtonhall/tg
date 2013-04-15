@@ -8,3 +8,16 @@ This is the desktop size. It's larger than an iPad so it will only
 be seen on the Desktop. 
 
 ******************************************************************/
+.header-nav {
+  width: 589px;
+  font-size: $h2-size;
+  margin: $base-space + 4 auto 0;
+}
+
+.main-nav {
+  font-size: 1em;
+}
+
+#nav ul li a {
+  padding: 7px 20px;
+}
