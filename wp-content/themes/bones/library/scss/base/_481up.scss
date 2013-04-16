@@ -83,6 +83,41 @@ SLIDER STYLES
 }
 
 /*********************
+WIDGET STYLES
+*********************/
+#more, #widgets {
+  margin: 30px;
+}
+
+.more {
+  border-bottom: 1px solid $brand-black;
+}
+
+.donate, .ticker, .newsletter {
+  border-bottom: 0px;
+}
+
+.ticker, .newsletter {
+  border-left: 1px solid $brand-black;
+  padding-left: 20px;
+  p {
+    margin: 0;
+  }
+}
+
+/*********************
+FOOTER STYLES
+*********************/
+
+.footer {
+	padding: 3px 30px;
+}
+
+.footer-logo {
+  right: 30px;
+}
+
+/*********************
 POSTS & CONTENT STYLES
 *********************/
 

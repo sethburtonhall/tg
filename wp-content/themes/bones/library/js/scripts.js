@@ -92,7 +92,7 @@ $(window).load(function() {
     animationLoop: true,
     slideshow: false,
     itemWidth: 190,
-    itemMargin: 5,
+    maxItems: 10, 
     move: 1,
     asNavFor: '#slider',
   });
@@ -101,7 +101,7 @@ $(window).load(function() {
     animation: "slide",
     controlNav: false,
     animationLoop: true,
-    slideshow: true,
+    slideshow: false,
     directionNav: true,
     prevText: "",
     nextText: "",

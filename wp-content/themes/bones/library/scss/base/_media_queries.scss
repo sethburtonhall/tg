@@ -12,12 +12,15 @@ tweeners.
 } // end of media query
 
 
-/*@media only screen and (min-width: 768px) and (max-width: 768px){
+@media only screen and (min-width: 768px) and (max-width: 768px){
+
+/*	// import grids
+	@import "grid";*/
 
 	// styles in 768.scss
 	@import "768";
 
-} // end of media query*/
+} // end of media query
 
 
 /*

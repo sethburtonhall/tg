@@ -1,14 +1,17 @@
-			<footer class="footer" role="contentinfo">
+			<footer class="twelvecol first clearfix footer" role="contentinfo">
 
-				<div id="inner-footer" class="wrap clearfix">
-
+				<div class="eightcol first clearfix">
 					<nav role="navigation">
-							<?php bones_footer_nav(); ?>
-									</nav>
+						<p class="quick-links">QUICK LINKS</p>
+						<?php bones_footer_nav(); ?>
+					</nav>
+				</div>
 
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>.</p>
+				<div class="fourcol last clearfix">
+					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. All Rights Reserved</p>
+				</div>
 
-				</div> <!-- end #inner-footer -->
+				<div class="footer-logo"></div>
 
 			</footer> <!-- end footer -->
 

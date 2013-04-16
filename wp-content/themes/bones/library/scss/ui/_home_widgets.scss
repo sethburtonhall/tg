@@ -1,0 +1,75 @@
+.widget-wrapper {
+  background: url(http://localhost:8888/wp-content/themes/bones/library/images/footer-bg.jpg) no-repeat;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+      -o-background-size: cover;
+        background-size: cover;
+}
+
+#more{
+  margin: 0px;
+}
+
+#widgets {
+  margin: 30px;
+}
+
+.more {
+  color: $brand-black;
+  text-align: center;
+  h1, h2 {
+    font-family: 'gearedBold'
+  }
+  p {
+    font-family: 'gearedThin';
+    font-size: 16px;
+  }
+  h1 {
+    font-size: $kilo-size;
+    margin: 0;
+  }
+  h2 {
+    margin: 0;
+  }
+}
+
+.donate {
+  background: $brand-white;
+  border-bottom: 1px solid $brand-black;
+  padding: 10px;
+}
+
+.ticker {
+  background-color: $brand-subColor;
+  p {
+    padding: 0 10px;
+  }
+}
+
+.newsletter {
+  background-color: $brand-color;
+}
+
+.ticker, .newsletter {
+  border-bottom: 1px solid $brand-black;
+  padding: 10px 0 10px;
+}
+
+.donate {
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  span {
+    color: $brand-orange;
+    font-size: $mega-size;
+  }
+}
+
+.ticker {
+
+}
+
+.ticker p, .newsletter p {
+    margin: 0;
+}

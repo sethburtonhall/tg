@@ -11,12 +11,16 @@ of the styles inside media queries.
 @import "base/mobile_first";
 
 /*OOCSS - essential mobile-first*/
+@import "ui/typography";
+
 @import "ui/header";
 @import "ui/header_nav";
 @import "ui/main_nav";
 @import "ui/social_nav";
 @import "ui/flexslider";
-@import "ui/typography";
+
+@import "ui/home_widgets";
+@import "ui/footer";
 
 @import "base/media_queries";
 

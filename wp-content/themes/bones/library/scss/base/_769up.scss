@@ -187,6 +187,30 @@ SLIDER STYLES
 }
 
 /*********************
+FOOTER STYLES
+*********************/
+.quick-links {
+  margin: 12px 0;
+}
+
+.footer-nav {
+  margin: 12px 0;
+  li a {
+    line-height: 1em;
+  }
+}
+
+.copyright {
+  text-align: right;
+  padding-right: 82px;
+  margin: 12px 0;
+}
+
+.footer-logo {
+  bottom: -16px;
+}
+
+/*********************
 SIDEBARS & ASIDES
 *********************/
 

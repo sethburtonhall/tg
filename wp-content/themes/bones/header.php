@@ -39,6 +39,7 @@
 		<script src="<?php echo get_stylesheet_directory_uri() ?>/library/js/libs/jquery.flexslider.js"></script>
 
 		<!-- drop Google Analytics Here -->
+		
 		<!-- end analytics -->
 
 	</head>
@@ -72,13 +73,13 @@
 									<?php bones_main_nav(); ?>
 									<div class="social-nav">
 										<ul>
-											<li><a href="" title="Instagram"><img src="http://localhost:8888/wp-content/themes/bones/library/images/instagram.png" alt="Instgram"></a></li>
-											<li><a href="https://twitter.com/Training_Ground" title="Twitter"><img src="http://localhost:8888/wp-content/themes/bones/library/images/twitter.png" alt="Twitter"></a></li>
-											<li><a href="https://www.facebook.com/ColoradoTG" title="Facebook"><img src="http://localhost:8888/wp-content/themes/bones/library/images/facebook.png" alt="Facebook"></a></li>
-											<li><a href="" title="Vimeo"><img src="http://localhost:8888/wp-content/themes/bones/library/images/vimeo.png" alt="Vimeo"></a></li>
-											<li><a href="http://www.flickr.com/photos/trainingground/" title="Flickr"><img src="http://localhost:8888/wp-content/themes/bones/library/images/flickr.png" alt="Flickr"></a></li>
-											<li><a href="" title="Tumblr"><img src="http://localhost:8888/wp-content/themes/bones/library/images/tumblr.png" alt="Tumblr"></a></li>
-											<li><a href="" title="More"><img src="http://localhost:8888/wp-content/themes/bones/library/images/more.png" alt="More"></a></li>
+											<li><a href="http://instagram.com/traininggroundcolorado" target="_blank" title="Instagram"><img src="http://localhost:8888/wp-content/themes/bones/library/images/instagram.png" alt="Instgram"></a></li>
+											<li><a href="https://twitter.com/Training_Ground" target="_blank" title="Twitter"><img src="http://localhost:8888/wp-content/themes/bones/library/images/twitter.png" alt="Twitter"></a></li>
+											<li><a href="https://www.facebook.com/ColoradoTG" target="_blank" title="Facebook"><img src="http://localhost:8888/wp-content/themes/bones/library/images/facebook.png" alt="Facebook"></a></li>
+											<li><a href="http://vimeo.com/user1207351" target="_blank" title="Vimeo"><img src="http://localhost:8888/wp-content/themes/bones/library/images/vimeo.png" alt="Vimeo"></a></li>
+											<li><a href="http://www.flickr.com/photos/trainingground/" target="_blank" title="Flickr"><img src="http://localhost:8888/wp-content/themes/bones/library/images/flickr.png" alt="Flickr"></a></li>
+											<li><a href="http://trainingground.tumblr.com/" target="_blank" title="Tumblr"><img src="http://localhost:8888/wp-content/themes/bones/library/images/tumblr.png" alt="Tumblr"></a></li>
+											<li><a href="#more" title="More"><img src="http://localhost:8888/wp-content/themes/bones/library/images/more.png" alt="More"></a></li>
 										</ul>
 									</div>	
 								</nav>

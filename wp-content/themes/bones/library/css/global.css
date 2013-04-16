@@ -572,6 +572,8 @@ dd {
 /*********************
 BRAND
 *********************/
+/*green*/
+/*army green*/
 /*********************
 COLORS
 *********************/
@@ -1939,6 +1941,143 @@ html[xmlns] .slides {
     right: 0;
   }
 }
+/* line 1, ../scss/ui/_home_widgets.scss */
+.widget-wrapper {
+  background: url(http://localhost:8888/wp-content/themes/bones/library/images/footer-bg.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 9, ../scss/ui/_home_widgets.scss */
+#more {
+  margin: 0px;
+}
+
+/* line 13, ../scss/ui/_home_widgets.scss */
+#widgets {
+  margin: 30px;
+}
+
+/* line 17, ../scss/ui/_home_widgets.scss */
+.more {
+  color: #1e2217;
+  text-align: center;
+}
+/* line 20, ../scss/ui/_home_widgets.scss */
+.more h1, .more h2 {
+  font-family: "gearedBold";
+}
+/* line 23, ../scss/ui/_home_widgets.scss */
+.more p {
+  font-family: 'gearedThin';
+  font-size: 16px;
+}
+/* line 27, ../scss/ui/_home_widgets.scss */
+.more h1 {
+  font-size: 48px;
+  margin: 0;
+}
+/* line 31, ../scss/ui/_home_widgets.scss */
+.more h2 {
+  margin: 0;
+}
+
+/* line 36, ../scss/ui/_home_widgets.scss */
+.donate {
+  background: #d3d8c5;
+  border-bottom: 1px solid #1e2217;
+  padding: 10px;
+}
+
+/* line 42, ../scss/ui/_home_widgets.scss */
+.ticker {
+  background-color: #8c9364;
+}
+/* line 44, ../scss/ui/_home_widgets.scss */
+.ticker p {
+  padding: 0 10px;
+}
+
+/* line 49, ../scss/ui/_home_widgets.scss */
+.newsletter {
+  background-color: #729251;
+}
+
+/* line 53, ../scss/ui/_home_widgets.scss */
+.ticker, .newsletter {
+  border-bottom: 1px solid #1e2217;
+  padding: 10px 0 10px;
+}
+
+/* line 59, ../scss/ui/_home_widgets.scss */
+.donate a {
+  color: inherit;
+  text-decoration: none;
+}
+/* line 63, ../scss/ui/_home_widgets.scss */
+.donate span {
+  color: #d98339;
+  font-size: 72px;
+}
+
+/* line 73, ../scss/ui/_home_widgets.scss */
+.ticker p, .newsletter p {
+  margin: 0;
+}
+
+/* line 1, ../scss/ui/_footer.scss */
+.footer {
+  background-color: #729251;
+  font-family: Helvetica;
+  color: #030800;
+  margin: 20px 0 438px;
+  padding: 3px 20px;
+}
+
+/* line 9, ../scss/ui/_footer.scss */
+.quick-links {
+  float: left;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 1em;
+  margin: 5px 0 10px;
+}
+
+/* line 17, ../scss/ui/_footer.scss */
+.footer-nav {
+  float: left;
+  font-size: 11px;
+  text-transform: uppercase;
+  margin: 5px 0 10px;
+}
+/* line 22, ../scss/ui/_footer.scss */
+.footer-nav li a {
+  line-height: 1em;
+  color: #1e2217;
+  padding: 0 5px;
+  border-right: 1px solid #1e2217;
+}
+
+/* line 30, ../scss/ui/_footer.scss */
+.copyright {
+  font-size: 11px;
+  line-height: 1em;
+  margin: 0px 0 5px;
+}
+
+/* line 36, ../scss/ui/_footer.scss */
+.footer-logo {
+  background: url(http://localhost:8888/wp-content/themes/bones/library/images/footer-logo.png) no-repeat;
+  height: 75px;
+  width: 75px;
+  background-size: 100%;
+  position: absolute;
+  bottom: 423px;
+  right: 20px;
+}
+
 /*
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
@@ -2011,26 +2150,67 @@ tweeners.
   }
 
   /*********************
+  WIDGET STYLES
+  *********************/
+  /* line 88, ../scss/base/_481up.scss */
+  #more, #widgets {
+    margin: 30px;
+  }
+
+  /* line 92, ../scss/base/_481up.scss */
+  .more {
+    border-bottom: 1px solid #1e2217;
+  }
+
+  /* line 96, ../scss/base/_481up.scss */
+  .donate, .ticker, .newsletter {
+    border-bottom: 0px;
+  }
+
+  /* line 100, ../scss/base/_481up.scss */
+  .ticker, .newsletter {
+    border-left: 1px solid #1e2217;
+    padding-left: 20px;
+  }
+  /* line 103, ../scss/base/_481up.scss */
+  .ticker p, .newsletter p {
+    margin: 0;
+  }
+
+  /*********************
+  FOOTER STYLES
+  *********************/
+  /* line 112, ../scss/base/_481up.scss */
+  .footer {
+    padding: 3px 30px;
+  }
+
+  /* line 116, ../scss/base/_481up.scss */
+  .footer-logo {
+    right: 30px;
+  }
+
+  /*********************
   POSTS & CONTENT STYLES
   *********************/
   /* entry content */
-  /* line 90, ../scss/base/_481up.scss */
+  /* line 125, ../scss/base/_481up.scss */
   .entry-content {
     /* at this larger size, we can start to align images */
   }
-  /* line 94, ../scss/base/_481up.scss */
+  /* line 129, ../scss/base/_481up.scss */
   .entry-content .alignleft, .entry-content img.alignleft {
     margin-right: 1.5em;
     display: inline;
     float: left;
   }
-  /* line 99, ../scss/base/_481up.scss */
+  /* line 134, ../scss/base/_481up.scss */
   .entry-content .alignright, .entry-content img.alignright {
     margin-left: 1.5em;
     display: inline;
     float: right;
   }
-  /* line 104, ../scss/base/_481up.scss */
+  /* line 139, ../scss/base/_481up.scss */
   .entry-content .aligncenter, .entry-content img.aligncenter {
     margin-right: auto;
     margin-left: auto;
@@ -2048,12 +2228,21 @@ tweeners.
   */
   /* end .footer-links */
 }
-/*@media only screen and (min-width: 768px) and (max-width: 768px){
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+  /*	// import grids
+  	@import "grid";*/
+  /* line 1, ../scss/base/_768.scss */
+  .header-nav {
+    width: 479px;
+    font-size: 24px;
+    margin: auto;
+  }
 
-	// styles in 768.scss
-	@import "768";
-
-} // end of media query*/
+  /* line 7, ../scss/base/_768.scss */
+  .footer-logo {
+    bottom: 424px;
+  }
+}
 /*
 TABLET & SMALLER LAPTOPS
 This is the average viewing window. So Desktops, Laptops, and
@@ -2345,30 +2534,59 @@ you can add resource intensive styles.
   }
 
   /*********************
+  FOOTER STYLES
+  *********************/
+  /* line 192, ../scss/base/_769up.scss */
+  .quick-links {
+    margin: 12px 0;
+  }
+
+  /* line 196, ../scss/base/_769up.scss */
+  .footer-nav {
+    margin: 12px 0;
+  }
+  /* line 198, ../scss/base/_769up.scss */
+  .footer-nav li a {
+    line-height: 1em;
+  }
+
+  /* line 203, ../scss/base/_769up.scss */
+  .copyright {
+    text-align: right;
+    padding-right: 82px;
+    margin: 12px 0;
+  }
+
+  /* line 209, ../scss/base/_769up.scss */
+  .footer-logo {
+    bottom: -16px;
+  }
+
+  /*********************
   SIDEBARS & ASIDES
   *********************/
-  /* line 193, ../scss/base/_769up.scss */
+  /* line 217, ../scss/base/_769up.scss */
   .sidebar {
     margin-top: 2.2em;
   }
 
-  /* line 197, ../scss/base/_769up.scss */
+  /* line 221, ../scss/base/_769up.scss */
   .widgettitle {
     border-bottom: 2px solid #444;
     margin-bottom: 0.75em;
   }
 
-  /* line 202, ../scss/base/_769up.scss */
+  /* line 226, ../scss/base/_769up.scss */
   .widget {
     padding: 0 10px;
     margin: 2.2em 0;
   }
-  /* line 207, ../scss/base/_769up.scss */
+  /* line 231, ../scss/base/_769up.scss */
   .widget ul li {
     margin-bottom: 0.75em;
     /* deep nesting */
   }
-  /* line 215, ../scss/base/_769up.scss */
+  /* line 239, ../scss/base/_769up.scss */
   .widget ul li ul {
     margin-top: 0.75em;
     padding-left: 1em;
@@ -2393,7 +2611,7 @@ you can add resource intensive styles.
   of overriding here if you styled them for
   mobile. Make sure to double check these!
   */
-  /* line 323, ../scss/base/_769up.scss */
+  /* line 347, ../scss/base/_769up.scss */
   .footer-links ul li {
     /*
     be careful with the depth of your menus.
@@ -2644,13 +2862,13 @@ be set to display none.
 * Global Styles
 ******************************
 */
-/* line 30, ../scss/global.scss */
+/* line 34, ../scss/global.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 34, ../scss/global.scss */
+/* line 38, ../scss/global.scss */
 body {
   position: relative;
-  background-color: #d3d8c4;
+  background-color: #8c9364;
 }
