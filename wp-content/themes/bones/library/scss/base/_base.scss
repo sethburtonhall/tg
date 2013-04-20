@@ -1,0 +1,10 @@
+@import "normalize";
+@import "vars";
+@import "mixins";
+
+/******************************************************************
+Mobile goes outside any query
+and is called at the beginning, after that we call the rest
+of the styles inside media queries.
+******************************************************************/
+@import "mobile_first";

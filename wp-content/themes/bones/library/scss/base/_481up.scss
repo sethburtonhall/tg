@@ -85,7 +85,7 @@ SLIDER STYLES
 /*********************
 WIDGET STYLES
 *********************/
-#more, #widgets {
+#widgets {
   margin: 30px;
 }
 
@@ -105,6 +105,42 @@ WIDGET STYLES
   }
 }
 
+/*.more {
+	border-bottom: 0px;
+	background: $brand-white;
+}*/
+
+.twocol.first.donate {
+	float: left;
+	width: 50%;
+}
+
+.threecol.ticker {
+	overflow: auto;
+	padding-bottom: 21px;
+}
+
+.ticker {
+border-left: 0px;
+}
+
+.fourcol.first {
+	text-align: left;
+	float: left;
+	margin-right: 20px;
+}
+
+.threecol.clearfix.checkboxes {
+	width: 27%;
+	margin: 0;
+	float: left;
+}
+
+.fivecol.last.email-submit {
+	width: 44%;
+	float: left;
+	margin-top: 6px;
+}
 /*********************
 FOOTER STYLES
 *********************/

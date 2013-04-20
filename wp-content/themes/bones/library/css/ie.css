@@ -1,14 +1,14 @@
 /*
-Syntax error: File to import not found or unreadable: base/768up.
+Syntax error: File to import not found or unreadable: vars.
               Load paths:
                 /Users/M8M/Dropbox/webdesign/localroot_db/htdocs/tg/wp-content/themes/bones/library/scss
                 /Users/M8M/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets
                 /Users/M8M/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/compass/stylesheets
                 Compass::SpriteImporter
-        on line 29 of /Users/M8M/Dropbox/webdesign/localroot_db/htdocs/tg/wp-content/themes/bones/library/scss/ie.scss
+        on line 23 of /Users/M8M/Dropbox/webdesign/localroot_db/htdocs/tg/wp-content/themes/bones/library/scss/ie.scss
 
 Backtrace:
-/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/tg/wp-content/themes/bones/library/scss/ie.scss:29
+/Users/M8M/Dropbox/webdesign/localroot_db/htdocs/tg/wp-content/themes/bones/library/scss/ie.scss:23
 /Users/M8M/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.3/lib/sass/tree/import_node.rb:67:in `rescue in import'
 /Users/M8M/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.3/lib/sass/tree/import_node.rb:45:in `import'
 /Users/M8M/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.3/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -77,4 +77,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: base/768up.\A               Load paths:\A                 /Users/M8M/Dropbox/webdesign/localroot_db/htdocs/tg/wp-content/themes/bones/library/scss\A                 /Users/M8M/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Users/M8M/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 29 of /Users/M8M/Dropbox/webdesign/localroot_db/htdocs/tg/wp-content/themes/bones/library/scss/ie.scss"; }
+  content: "Syntax error: File to import not found or unreadable: vars.\A               Load paths:\A                 /Users/M8M/Dropbox/webdesign/localroot_db/htdocs/tg/wp-content/themes/bones/library/scss\A                 /Users/M8M/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Users/M8M/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 23 of /Users/M8M/Dropbox/webdesign/localroot_db/htdocs/tg/wp-content/themes/bones/library/scss/ie.scss"; }

@@ -14,9 +14,6 @@ tweeners.
 
 @media only screen and (min-width: 768px) and (max-width: 768px){
 
-/*	// import grids
-	@import "grid";*/
-
 	// styles in 768.scss
 	@import "768";
 
@@ -73,20 +70,6 @@ This is for the larger monitors and possibly full screen viewers.
 
 } // end of media query
 
-/*
-RETINA (2x RESOLUTION DEVICES)
-This applies to the retina iPhone (4s) and iPad (2,3) along with
-other displays with a 2x resolution. You can also create a media
-query for retina AND a certain size if you want. Go Nuts.
-*/
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (min--moz-device-pixel-ratio: 1.5),
-       only screen and (min-device-pixel-ratio: 1.5) {
-
-	// styles in 2x.scss
-	@import "2x";
-
-} // end of media query
 
 /*
 iPHONE 5 MEDIA QUERY

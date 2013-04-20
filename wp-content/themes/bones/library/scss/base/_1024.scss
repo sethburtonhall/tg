@@ -1,7 +1,12 @@
 .header-nav {
-  width: 498px;
+  width: 488px;
   font-size: 25px;
   margin: $base-space + 4 auto 0;
+  float: right;
+}
+
+.mask .nav li:last-child a {
+  padding-right: 0px;
 }
 
 .main-nav {
@@ -16,7 +21,7 @@
   position: absolute;
   top: -6px;
   right: 0px;
-  width: 266px;
+  width: 224px;
 }
 
 #nav .social-nav ul li {

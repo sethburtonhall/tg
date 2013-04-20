@@ -1,29 +1,15 @@
-@import "base/normalize";
+@import "base/base";
 
-@import "vars";
-@import "base/mixins";
-
-/******************************************************************
-Mobile goes outside any query
-and is called at the beginning, after that we call the rest
-of the styles inside media queries.
-******************************************************************/
-@import "base/mobile_first";
-
-/*OOCSS - essential mobile-first*/
 @import "ui/typography";
-
 @import "ui/header";
 @import "ui/header_nav";
 @import "ui/main_nav";
 @import "ui/social_nav";
 @import "ui/flexslider";
-
 @import "ui/home_widgets";
 @import "ui/footer";
 
 @import "base/media_queries";
-
 
 /*
 ******************************
@@ -32,7 +18,9 @@ of the styles inside media queries.
 */
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+      box-sizing:         border-box;
 }
 
 body {

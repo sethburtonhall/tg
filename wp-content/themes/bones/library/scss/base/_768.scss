@@ -7,3 +7,32 @@
 .footer-logo {
   bottom: 424px;
 }
+
+
+/*
+******************************
+* Home Widgets
+******************************
+*/
+
+.donate {
+	width: 50%;
+	float: left;
+}
+
+.ticker {
+	width: 50%;
+	float: right;
+}
+
+.newsletter {
+	@include twelvecol;
+	@include first;
+}
+
+.email-submit {
+	width: 44%;
+	@include last;
+	margin-top: 4px;
+
+}

@@ -84,53 +84,11 @@
               </div> <!-- end carousel -->
 						</div> <!-- end #main -->
 
-            <div class="twelvecol first clearfix widget-wrapper">
+            <?php include("home_widgets.php"); ?>
 
-              <div id="more" class="more twelvecol first clearfix">
-                <div class="twocol first donate">
-                  <a href="/donate" title="Donate Now"><h1>DONATE NOW <span class="arrow">»</span></h1></a>
-                </div>
-
-                <div class="threecol ticker">
-                  <h2>LATEST NEWS:</h2>
-                  <p>Scrolling Ticker | Apply for the Fall Session for a Life Defining ... </p>
-                </div>
-
-                <div class="sevencol last newsletter">
-                  <div class="threecol first">
-                    <h2>KEEP UP WITH US:</h2>
-                    <p>[select one or both]</p>
-                    <input type="checkbox" name="group 1" value="Newletter Updates" align="right">Newletter Updates <br>
-                    <input type="checkbox" name="group 2" value="Prayer Requests" align="right" checked> Prayer Requests <br>
-                  </div>
-                  <div class="threecol">
-                    
-                  </div>
-                  <div class="sixcol last">
-                    
-                  </div>
-                </div>
-
-              </div> <!-- end #more -->
-
-              <div id="widgets" class="twelvecol first clearfix widgets ">
-                <div class="threecol first video">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ea consequuntur sunt totam modi voluptatem illum voluptate quidem nihil nam veniam inventore odio fugit deserunt eos vel sequi nesciunt incidunt.</p>
-                </div>
-                <div class="threecol instagram">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ea consequuntur sunt totam modi voluptatem illum voluptate quidem nihil nam veniam inventore odio fugit deserunt eos vel sequi nesciunt incidunt.</p>
-                </div>
-                <div class="threecol twitter">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ea consequuntur sunt totam modi voluptatem illum voluptate quidem nihil nam veniam inventore odio fugit deserunt eos vel sequi nesciunt incidunt.</p>
-                </div>
-                <div class="threecol last recent-posts">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ea consequuntur sunt totam modi voluptatem illum voluptate quidem nihil nam veniam inventore odio fugit deserunt eos vel sequi nesciunt incidunt.</p>
-                </div>
-              </div> <!-- end widgets -->
-
-              <?php get_footer(); ?>
+            <?php get_footer(); ?>
             
-            </div> <!-- end widget-wrapper -->
+            </div> <!-- end widget-wrapper from home_widgets.php -->
 
       </div> <!-- end #content -->
 

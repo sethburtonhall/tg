@@ -187,6 +187,28 @@ SLIDER STYLES
 }
 
 /*********************
+WIDGET STYLES
+*********************/
+
+.donate {
+	background: transparent;
+	@include threecol;
+	@include first;
+}
+
+.ticker {
+	background: transparent;
+	@include threecol;
+	margin-left: 0;
+}
+
+.newsletter {
+	background: transparent;
+	@include sixcol;
+	@include last;
+}
+
+/*********************
 FOOTER STYLES
 *********************/
 .quick-links {
