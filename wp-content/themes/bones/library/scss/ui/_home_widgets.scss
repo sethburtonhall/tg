@@ -4,19 +4,22 @@
     -moz-background-size: cover;
       -o-background-size: cover;
         background-size: cover;
+  clear: both;
 }
+
+
+/*
+******************************
+* .more Styles
+******************************
+*/
 
 #more{
   margin: 0px;
 }
 
-#widgets {
-  margin: 30px;
-}
-
 .more {
   color: $brand-black;
-  text-align: center;
   h1, h2 {
     font-family: 'gearedBold'
   }
@@ -33,13 +36,14 @@
     margin: 0;
     line-height: 1em;
     padding-bottom: 6px;
+    font-size: 1.4em;
   }
 }
 
 .donate {
   background: $brand-white;
   border-bottom: 1px solid $brand-black;
-  padding: 30px 0;
+  padding: 30px 20px;
   a {
     color: inherit;
     text-decoration: none;
@@ -57,6 +61,7 @@
   background-color: $brand-subColor;
   p {
     margin: 0;
+    text-align: left;
   }
 }
 
@@ -68,12 +73,111 @@
   }
 }
 
+.newsletter-cta {
+  @include sixcol;
+  @include first;
+}
 .checkboxes {
-  margin: 10px;
+  @include sixcol;
+  @include last;
+  /*margin: 20px 0 0 0;*/
   text-align:left;
   font-family: 'gearedBold';
-  font-size: $h3-size;
-  line-height: 1em;
+/*  font-size: $h3-size;
+  line-height: 1em;*/
+  font-size: 19px;
+  line-height: 1.2em;
+}
+
+.email-submit {
+  @include twelvecol;
+  @include first;
+  /*width: 95%;*/
+  margin: 20px auto auto 0;
+  padding: 3px 0;
+  @include css-gradient(#fafaf8,#dfe0de);
+    input[type="text"] {
+      padding: 11px 0 6px 10px;
+      line-height: 1em;
+      border: 0;
+      color: $brand-gray;
+      font-family: 'gearedThin';
+        @include css-gradient(#fafaf8,#dfe0de);
+          &:focus {
+            outline-color: transparent;
+            border: none;
+            outline: none;
+          }
+        }
+    input[type="submit"]{
+      float: right;
+      color: $brand-gray;
+      font-family: 'gearedBold';
+      letter-spacing: .07em;
+      padding: 8px;
+      border: 0;
+      @include css-gradient(#fafaf8,#dfe0de);
+    }
+}
+
+
+/*
+******************************
+* .widget Styles
+******************************
+*/
+
+#widgets {
+  margin: 30px;
+}
+
+.widgets h3 {
+  margin: 0px 20px 10px 0;
+}
+
+.widgettitle {
+  border-bottom: 1px solid $brand-black;
+}
+
+.video, .instagram, .twitter, .recent-posts {
+  margin-bottom: 20px;
+}
+
+.instagram, .twitter, .recent-posts {
+  background: #fff;
+  padding: 8px 0 0 20px;
+}
+
+.twitter a {
+  color: $brand-black;
+  cursor: default;
+}
+
+/*
+******************************
+* Instagram for Wordpress plugin customizations
+******************************
+*/
+
+/*#last-child {
+  margin-right: 0px !important;
+}*/
+
+ul.wpinstagram li a img {
+  margin-right: 20px !important;
+  margin-bottom: 10px !important;
+}
+
+ul.wpinstagram {
+  display: inline;
+}
+
+ul.wpinstagram li {
+  display: inline;
+}
+
+ul.wpinstagram li:first-child {
+  display: inline;
 }
 
 /*
@@ -83,79 +187,27 @@
 */
 .ticker, .newsletter {
   border-bottom: 1px solid $brand-black;
-  padding: 25px 10px;
+  padding: 25px 20px;
 }
 
 
-
+/*
+******************************
+* Custom Check Boxes Styles
+******************************
+*/
 .has-js .label_check {
   padding-left: 27px;
 }
 
 .has-js .label_check {
-  background: url(http://localhost:8888/wp-content/themes/bones/library/images/check-off.png) no-repeat -1px 6px;
+  background: url(http://localhost:8888/wp-content/themes/bones/library/images/check-off.png) no-repeat 0px 4px;
 }
 
 .has-js label.c_on {
-  background: url(http://localhost:8888/wp-content/themes/bones/library/images/check-on.png) no-repeat;
+  background: url(http://localhost:8888/wp-content/themes/bones/library/images/check-on.png) no-repeat 0px 4px;
 }
 
 .has-js .label_check input {
   position: absolute; left: -9999px;
-}
-
-.email-submit {
-  width: 95%;
-  margin: auto;
-  padding: 3px 0;
-
-  background-color: #fafaf8;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(250, 250, 248)), to(rgb(223, 224, 222)));
-  background-image: -webkit-linear-gradient(top, rgb(250, 250, 248), rgb(223, 224, 222));
-  background-image: -moz-linear-gradient(top, rgb(250, 250, 248), rgb(223, 224, 222));
-  background-image: -o-linear-gradient(top, rgb(250, 250, 248), rgb(223, 224, 222));
-  background-image: -ms-linear-gradient(top, rgb(250, 250, 248), rgb(223, 224, 222));
-  background-image: linear-gradient(top, rgb(250, 250, 248), rgb(223, 224, 222));
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#fafaf8', EndColorStr='#dfe0de');
-
-    input[type="text"] {
-      width: 75%;
-      padding: 11px 0 6px 10px;
-      line-height: 1em;
-      border: 0;
-      color: $brand-gray;
-      font-family: 'gearedThin';
-
-      background-color: #fafaf8;
-      background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(250, 250, 248)), to(rgb(223, 224, 222)));
-      background-image: -webkit-linear-gradient(top, rgb(250, 250, 248), rgb(223, 224, 222));
-      background-image: -moz-linear-gradient(top, rgb(250, 250, 248), rgb(223, 224, 222));
-      background-image: -o-linear-gradient(top, rgb(250, 250, 248), rgb(223, 224, 222));
-      background-image: -ms-linear-gradient(top, rgb(250, 250, 248), rgb(223, 224, 222));
-      background-image: linear-gradient(top, rgb(250, 250, 248), rgb(223, 224, 222));
-      filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#fafaf8', EndColorStr='#dfe0de');
-
-      &:focus {
-        outline-color: transparent;
-        border: none;
-        outline: none;
-      }
-    }
-    input[type="submit"]{
-      color: $brand-gray;
-      font-family: 'gearedBold';
-      letter-spacing: .07em;
-      padding: 8px;
-      border: 0;
-
-      background-color: #fafaf8;
-      background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(250, 250, 248)), to(rgb(223, 224, 222)));
-      background-image: -webkit-linear-gradient(top, rgb(250, 250, 248), rgb(223, 224, 222));
-      background-image: -moz-linear-gradient(top, rgb(250, 250, 248), rgb(223, 224, 222));
-      background-image: -o-linear-gradient(top, rgb(250, 250, 248), rgb(223, 224, 222));
-      background-image: -ms-linear-gradient(top, rgb(250, 250, 248), rgb(223, 224, 222));
-      background-image: linear-gradient(top, rgb(250, 250, 248), rgb(223, 224, 222));
-      filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#fafaf8', EndColorStr='#dfe0de');
-
-    }
 }

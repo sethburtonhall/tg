@@ -84,6 +84,46 @@ function bones_register_sidebars() {
 		'after_title' => '</h4>',
 	));
 
+		register_sidebar(array(
+			'id' => 'welcome-video',
+			'name' => __('Welcome Video', 'bonestheme'),
+			'description' => __('This is the welcome video displayed in the home page widget area. If this video ever needs to be replaced, do so by REPLACING THE iFRAME EMBED CODE BELOW', 'bonestheme'),
+			'before_widget' => '<div class="threecol first video">',
+			'after_widget' => '</div>',
+			'before_title' => '<h3 class="widgettitle">',
+			'after_title' => '</h3>',
+		));
+
+		register_sidebar(array(
+			'id' => 'instagram-feed',
+			'name' => __('Instagram Feed', 'bonestheme'),
+			'description' => __('This displays your six most recent Instagram photos in the home page widget area.', 'bonestheme'),
+			'before_widget' => '<div id="instagram" class="threecol instagram">',
+			'after_widget' => '</div>',
+			'before_title' => '<h3 class="widgettitle">',
+			'after_title' => '</h3>',
+		));
+
+		register_sidebar(array(
+			'id' => 'twitter-feed',
+			'name' => __('Twitter Feed', 'bonestheme'),
+			'description' => __('This displays your three most recent Tweets in the home page widget area.', 'bonestheme'),
+			'before_widget' => '<div class="threecol twitter">',
+			'after_widget' => '</div>',
+			'before_title' => '<h3 class="widgettitle">',
+			'after_title' => '</h3>',
+		));
+
+		register_sidebar(array(
+			'id' => 'recent-posts',
+			'name' => __('Most Recent Blog Posts', 'bonestheme'),
+			'description' => __('This displays your two most recent blog posts in the home page widget area.', 'bonestheme'),
+			'before_widget' => '<div class="threecol last recent-posts">',
+			'after_widget' => '</div>',
+			'before_title' => '<h3 class="widgettitle">',
+			'after_title' => '</h3>',
+		));
+
 	/*
 	to add more sidebars or widgetized areas, just copy
 	and edit the above sidebar code. In order to call
@@ -161,6 +201,8 @@ function bones_wpsearch($form) {
 	return $form;
 } // don't remove this bracket!
 
+
+// Custom Training Ground Functions
 
 // Add navigation
 register_nav_menus( array(

@@ -154,6 +154,15 @@ var check_it = function() {
 // fitText.js
 // $(".flex-caption").fitText(1.2, { minFontSize: '14px', maxFontSize: '30px' })
 
+// FitVids.js
+$(document).ready(function(){
+  $(".video").fitVids();
+});
+
+// Instagram for Wordpress widget :nth-child
+// $("#instagram ul.wpinstagram li:nth-child(3n - 4) a img").css('margin-right', '0px !important');
+$("ul.wpinstagram li:nth-child(3n - 3) a img").attr('id', 'last-child');
+
 
 }); /* end of as page load scripts */
 

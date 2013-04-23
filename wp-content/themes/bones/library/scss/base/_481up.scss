@@ -110,37 +110,10 @@ WIDGET STYLES
 	background: $brand-white;
 }*/
 
-.twocol.first.donate {
-	float: left;
-	width: 50%;
-}
-
-.threecol.ticker {
-	overflow: auto;
-	padding-bottom: 21px;
-}
-
 .ticker {
 border-left: 0px;
 }
 
-.fourcol.first {
-	text-align: left;
-	float: left;
-	margin-right: 20px;
-}
-
-.threecol.clearfix.checkboxes {
-	width: 27%;
-	margin: 0;
-	float: left;
-}
-
-.fivecol.last.email-submit {
-	width: 44%;
-	float: left;
-	margin-top: 6px;
-}
 /*********************
 FOOTER STYLES
 *********************/
@@ -195,3 +168,27 @@ do they need tweaking?
 	}
 } /* end .footer-links */
 			
+/*
+******************************
+* In Between Media Queries
+******************************
+*/
+
+@media only screen and (min-width: 600px) {
+
+	.newsletter-cta {
+		@include threecol;
+		@include first;
+	}
+
+	.checkboxes {
+		@include fourcol;
+	}
+
+	.email-submit {
+		@include fivecol;
+		@include last;
+		margin: 5px 0 0;
+	}
+
+} // end of media query

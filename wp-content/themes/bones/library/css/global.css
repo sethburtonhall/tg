@@ -644,6 +644,12 @@ You'll need to be using Sass 3.2+ for these to work.
 Thanks to @anthonyshort for the inspiration on these.
 USAGE: @include transition(all 0.2s ease-in-out);
 */
+/*********************
+CSS3 GRADIENTS
+Be careful with these since they can
+really slow down your CSS. Don't overdo it.
+*********************/
+/* @include css-gradient(#dfdfdf,#f8f8f8); */
 /******************************************************************
 Mobile goes outside any query
 and is called at the beginning, after that we call the rest
@@ -1245,6 +1251,13 @@ override these styles for the desktop
 view.
 */
 /* end .footer-links */
+/* line 1, ../scss/ui/_typography.scss */
+h3 {
+  font-size: 24px;
+  font-family: 'gearedBold';
+  color: #1e2217;
+}
+
 /* line 1, ../scss/ui/_header.scss */
 .logo {
   position: relative;
@@ -1766,57 +1779,58 @@ html[xmlns] .slides {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  clear: both;
 }
 
-/* line 9, ../scss/ui/_home_widgets.scss */
+/*
+******************************
+* .more Styles
+******************************
+*/
+/* line 17, ../scss/ui/_home_widgets.scss */
 #more {
   margin: 0px;
 }
 
-/* line 13, ../scss/ui/_home_widgets.scss */
-#widgets {
-  margin: 30px;
-}
-
-/* line 17, ../scss/ui/_home_widgets.scss */
+/* line 21, ../scss/ui/_home_widgets.scss */
 .more {
   color: #1e2217;
-  text-align: center;
 }
-/* line 20, ../scss/ui/_home_widgets.scss */
+/* line 23, ../scss/ui/_home_widgets.scss */
 .more h1, .more h2 {
   font-family: "gearedBold";
 }
-/* line 23, ../scss/ui/_home_widgets.scss */
+/* line 26, ../scss/ui/_home_widgets.scss */
 .more p {
   font-family: 'gearedThin';
   font-size: 16px;
 }
-/* line 27, ../scss/ui/_home_widgets.scss */
+/* line 30, ../scss/ui/_home_widgets.scss */
 .more h1 {
   font-size: 48px;
   margin: 0;
   line-height: 1em;
 }
-/* line 32, ../scss/ui/_home_widgets.scss */
+/* line 35, ../scss/ui/_home_widgets.scss */
 .more h2 {
   margin: 0;
   line-height: 1em;
   padding-bottom: 6px;
+  font-size: 1.4em;
 }
 
-/* line 39, ../scss/ui/_home_widgets.scss */
+/* line 43, ../scss/ui/_home_widgets.scss */
 .donate {
   background: #d3d8c5;
   border-bottom: 1px solid #1e2217;
-  padding: 30px 0;
+  padding: 30px 20px;
 }
-/* line 43, ../scss/ui/_home_widgets.scss */
+/* line 47, ../scss/ui/_home_widgets.scss */
 .donate a {
   color: inherit;
   text-decoration: none;
 }
-/* line 47, ../scss/ui/_home_widgets.scss */
+/* line 51, ../scss/ui/_home_widgets.scss */
 .donate span {
   color: #d98339;
   font-size: 72px;
@@ -1825,32 +1839,168 @@ html[xmlns] .slides {
   top: 4px;
 }
 
-/* line 56, ../scss/ui/_home_widgets.scss */
+/* line 60, ../scss/ui/_home_widgets.scss */
 .ticker {
   background-color: #8c9364;
 }
-/* line 58, ../scss/ui/_home_widgets.scss */
+/* line 62, ../scss/ui/_home_widgets.scss */
 .ticker p {
   margin: 0;
+  text-align: left;
 }
 
-/* line 63, ../scss/ui/_home_widgets.scss */
+/* line 68, ../scss/ui/_home_widgets.scss */
 .newsletter {
   background-color: #729251;
 }
-/* line 65, ../scss/ui/_home_widgets.scss */
+/* line 70, ../scss/ui/_home_widgets.scss */
 .newsletter p {
   margin: 0;
   line-height: 1em;
 }
 
-/* line 71, ../scss/ui/_home_widgets.scss */
+/* line 76, ../scss/ui/_home_widgets.scss */
+.newsletter-cta {
+  position: relative;
+  float: left;
+  margin-left: 2.762430939%;
+  width: 48.618784527%;
+  margin-left: 0;
+}
+
+/* line 80, ../scss/ui/_home_widgets.scss */
 .checkboxes {
-  margin: 10px;
+  position: relative;
+  float: left;
+  margin-left: 2.762430939%;
+  width: 48.618784527%;
+  float: right;
+  /*margin: 20px 0 0 0;*/
   text-align: left;
   font-family: 'gearedBold';
-  font-size: 24px;
+  /*  font-size: $h3-size;
+    line-height: 1em;*/
+  font-size: 19px;
+  line-height: 1.2em;
+}
+
+/* line 92, ../scss/ui/_home_widgets.scss */
+.email-submit {
+  position: relative;
+  float: left;
+  margin-left: 2.762430939%;
+  width: 99.999999993%;
+  margin-left: 0;
+  /*width: 95%;*/
+  margin: 20px auto auto 0;
+  padding: 3px 0;
+  background-color: #dfe0de;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fafaf8), to(#dfe0de));
+  background-image: -webkit-linear-gradient(top, #fafaf8, #dfe0de);
+  background-image: -moz-linear-gradient(top, #fafaf8, #dfe0de);
+  background-image: -o-linear-gradient(top, #fafaf8, #dfe0de);
+  background-image: linear-gradient(to bottom, #fafaf8, #dfe0de);
+}
+/* line 99, ../scss/ui/_home_widgets.scss */
+.email-submit input[type="text"] {
+  padding: 11px 0 6px 10px;
   line-height: 1em;
+  border: 0;
+  color: #95988a;
+  font-family: 'gearedThin';
+  background-color: #dfe0de;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fafaf8), to(#dfe0de));
+  background-image: -webkit-linear-gradient(top, #fafaf8, #dfe0de);
+  background-image: -moz-linear-gradient(top, #fafaf8, #dfe0de);
+  background-image: -o-linear-gradient(top, #fafaf8, #dfe0de);
+  background-image: linear-gradient(to bottom, #fafaf8, #dfe0de);
+}
+/* line 106, ../scss/ui/_home_widgets.scss */
+.email-submit input[type="text"]:focus {
+  outline-color: transparent;
+  border: none;
+  outline: none;
+}
+/* line 112, ../scss/ui/_home_widgets.scss */
+.email-submit input[type="submit"] {
+  float: right;
+  color: #95988a;
+  font-family: 'gearedBold';
+  letter-spacing: .07em;
+  padding: 8px;
+  border: 0;
+  background-color: #dfe0de;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fafaf8), to(#dfe0de));
+  background-image: -webkit-linear-gradient(top, #fafaf8, #dfe0de);
+  background-image: -moz-linear-gradient(top, #fafaf8, #dfe0de);
+  background-image: -o-linear-gradient(top, #fafaf8, #dfe0de);
+  background-image: linear-gradient(to bottom, #fafaf8, #dfe0de);
+}
+
+/*
+******************************
+* .widget Styles
+******************************
+*/
+/* line 130, ../scss/ui/_home_widgets.scss */
+#widgets {
+  margin: 30px;
+}
+
+/* line 134, ../scss/ui/_home_widgets.scss */
+.widgets h3 {
+  margin: 0px 20px 10px 0;
+}
+
+/* line 138, ../scss/ui/_home_widgets.scss */
+.widgettitle {
+  border-bottom: 1px solid #1e2217;
+}
+
+/* line 142, ../scss/ui/_home_widgets.scss */
+.video, .instagram, .twitter, .recent-posts {
+  margin-bottom: 20px;
+}
+
+/* line 146, ../scss/ui/_home_widgets.scss */
+.instagram, .twitter, .recent-posts {
+  background: #fff;
+  padding: 8px 0 0 20px;
+}
+
+/* line 151, ../scss/ui/_home_widgets.scss */
+.twitter a {
+  color: #1e2217;
+  cursor: default;
+}
+
+/*
+******************************
+* Instagram for Wordpress plugin customizations
+******************************
+*/
+/*#last-child {
+  margin-right: 0px !important;
+}*/
+/* line 166, ../scss/ui/_home_widgets.scss */
+ul.wpinstagram li a img {
+  margin-right: 20px !important;
+  margin-bottom: 10px !important;
+}
+
+/* line 171, ../scss/ui/_home_widgets.scss */
+ul.wpinstagram {
+  display: inline;
+}
+
+/* line 175, ../scss/ui/_home_widgets.scss */
+ul.wpinstagram li {
+  display: inline;
+}
+
+/* line 179, ../scss/ui/_home_widgets.scss */
+ul.wpinstagram li:first-child {
+  display: inline;
 }
 
 /*
@@ -1858,85 +2008,36 @@ html[xmlns] .slides {
 * Widget Combos
 ******************************
 */
-/* line 84, ../scss/ui/_home_widgets.scss */
+/* line 188, ../scss/ui/_home_widgets.scss */
 .ticker, .newsletter {
   border-bottom: 1px solid #1e2217;
-  padding: 25px 10px;
+  padding: 25px 20px;
 }
 
-/* line 91, ../scss/ui/_home_widgets.scss */
+/*
+******************************
+* Custom Check Boxes Styles
+******************************
+*/
+/* line 199, ../scss/ui/_home_widgets.scss */
 .has-js .label_check {
   padding-left: 27px;
 }
 
-/* line 95, ../scss/ui/_home_widgets.scss */
+/* line 203, ../scss/ui/_home_widgets.scss */
 .has-js .label_check {
-  background: url(http://localhost:8888/wp-content/themes/bones/library/images/check-off.png) no-repeat -1px 6px;
+  background: url(http://localhost:8888/wp-content/themes/bones/library/images/check-off.png) no-repeat 0px 4px;
 }
 
-/* line 99, ../scss/ui/_home_widgets.scss */
+/* line 207, ../scss/ui/_home_widgets.scss */
 .has-js label.c_on {
-  background: url(http://localhost:8888/wp-content/themes/bones/library/images/check-on.png) no-repeat;
+  background: url(http://localhost:8888/wp-content/themes/bones/library/images/check-on.png) no-repeat 0px 4px;
 }
 
-/* line 103, ../scss/ui/_home_widgets.scss */
+/* line 211, ../scss/ui/_home_widgets.scss */
 .has-js .label_check input {
   position: absolute;
   left: -9999px;
-}
-
-/* line 107, ../scss/ui/_home_widgets.scss */
-.email-submit {
-  width: 95%;
-  margin: auto;
-  padding: 3px 0;
-  background-color: #fafaf8;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fafaf8), to(#dfe0de));
-  background-image: -webkit-linear-gradient(top, #fafaf8, #dfe0de);
-  background-image: -moz-linear-gradient(top, #fafaf8, #dfe0de);
-  background-image: -o-linear-gradient(top, #fafaf8, #dfe0de);
-  background-image: -ms-linear-gradient(top, #fafaf8, #dfe0de);
-  background-image: linear-gradient(top, #fafaf8, #dfe0de);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#fafaf8', EndColorStr='#dfe0de');
-}
-/* line 121, ../scss/ui/_home_widgets.scss */
-.email-submit input[type="text"] {
-  width: 75%;
-  padding: 11px 0 6px 10px;
-  line-height: 1em;
-  border: 0;
-  color: #95988a;
-  font-family: 'gearedThin';
-  background-color: #fafaf8;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fafaf8), to(#dfe0de));
-  background-image: -webkit-linear-gradient(top, #fafaf8, #dfe0de);
-  background-image: -moz-linear-gradient(top, #fafaf8, #dfe0de);
-  background-image: -o-linear-gradient(top, #fafaf8, #dfe0de);
-  background-image: -ms-linear-gradient(top, #fafaf8, #dfe0de);
-  background-image: linear-gradient(top, #fafaf8, #dfe0de);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#fafaf8', EndColorStr='#dfe0de');
-}
-/* line 138, ../scss/ui/_home_widgets.scss */
-.email-submit input[type="text"]:focus {
-  outline-color: transparent;
-  border: none;
-  outline: none;
-}
-/* line 144, ../scss/ui/_home_widgets.scss */
-.email-submit input[type="submit"] {
-  color: #95988a;
-  font-family: 'gearedBold';
-  letter-spacing: .07em;
-  padding: 8px;
-  border: 0;
-  background-color: #fafaf8;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fafaf8), to(#dfe0de));
-  background-image: -webkit-linear-gradient(top, #fafaf8, #dfe0de);
-  background-image: -moz-linear-gradient(top, #fafaf8, #dfe0de);
-  background-image: -o-linear-gradient(top, #fafaf8, #dfe0de);
-  background-image: -ms-linear-gradient(top, #fafaf8, #dfe0de);
-  background-image: linear-gradient(top, #fafaf8, #dfe0de);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#fafaf8', EndColorStr='#dfe0de');
 }
 
 /* line 1, ../scss/ui/_footer.scss */
@@ -2094,52 +2195,19 @@ tweeners.
   	background: $brand-white;
   }*/
   /* line 113, ../scss/base/_481up.scss */
-  .twocol.first.donate {
-    float: left;
-    width: 50%;
-  }
-
-  /* line 118, ../scss/base/_481up.scss */
-  .threecol.ticker {
-    overflow: auto;
-    padding-bottom: 21px;
-  }
-
-  /* line 123, ../scss/base/_481up.scss */
   .ticker {
     border-left: 0px;
-  }
-
-  /* line 127, ../scss/base/_481up.scss */
-  .fourcol.first {
-    text-align: left;
-    float: left;
-    margin-right: 20px;
-  }
-
-  /* line 133, ../scss/base/_481up.scss */
-  .threecol.clearfix.checkboxes {
-    width: 27%;
-    margin: 0;
-    float: left;
-  }
-
-  /* line 139, ../scss/base/_481up.scss */
-  .fivecol.last.email-submit {
-    width: 44%;
-    float: left;
-    margin-top: 6px;
   }
 
   /*********************
   FOOTER STYLES
   *********************/
-  /* line 148, ../scss/base/_481up.scss */
+  /* line 121, ../scss/base/_481up.scss */
   .footer {
     padding: 3px 30px;
   }
 
-  /* line 152, ../scss/base/_481up.scss */
+  /* line 125, ../scss/base/_481up.scss */
   .footer-logo {
     right: 30px;
   }
@@ -2148,23 +2216,23 @@ tweeners.
   POSTS & CONTENT STYLES
   *********************/
   /* entry content */
-  /* line 161, ../scss/base/_481up.scss */
+  /* line 134, ../scss/base/_481up.scss */
   .entry-content {
     /* at this larger size, we can start to align images */
   }
-  /* line 165, ../scss/base/_481up.scss */
+  /* line 138, ../scss/base/_481up.scss */
   .entry-content .alignleft, .entry-content img.alignleft {
     margin-right: 1.5em;
     display: inline;
     float: left;
   }
-  /* line 170, ../scss/base/_481up.scss */
+  /* line 143, ../scss/base/_481up.scss */
   .entry-content .alignright, .entry-content img.alignright {
     margin-left: 1.5em;
     display: inline;
     float: right;
   }
-  /* line 175, ../scss/base/_481up.scss */
+  /* line 148, ../scss/base/_481up.scss */
   .entry-content .aligncenter, .entry-content img.aligncenter {
     margin-right: auto;
     margin-left: auto;
@@ -2181,6 +2249,39 @@ tweeners.
   do they need tweaking?
   */
   /* end .footer-links */
+  /*
+  ******************************
+  * In Between Media Queries
+  ******************************
+  */
+}
+@media only screen and (min-width: 481px) and (min-width: 600px) {
+  /* line 179, ../scss/base/_481up.scss */
+  .newsletter-cta {
+    position: relative;
+    float: left;
+    margin-left: 2.762430939%;
+    width: 22.928176794%;
+    margin-left: 0;
+  }
+
+  /* line 184, ../scss/base/_481up.scss */
+  .checkboxes {
+    position: relative;
+    float: left;
+    margin-left: 2.762430939%;
+    width: 31.491712705%;
+  }
+
+  /* line 188, ../scss/base/_481up.scss */
+  .email-submit {
+    position: relative;
+    float: left;
+    margin-left: 2.762430939%;
+    width: 40.055248616%;
+    float: right;
+    margin: 5px 0 0;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 768px) {
   /* line 1, ../scss/base/_768.scss */
@@ -2205,14 +2306,18 @@ tweeners.
     width: 50%;
     float: left;
   }
+  /* line 21, ../scss/base/_768.scss */
+  .donate h1 {
+    text-align: center;
+  }
 
-  /* line 23, ../scss/base/_768.scss */
+  /* line 26, ../scss/base/_768.scss */
   .ticker {
     width: 50%;
     float: right;
   }
 
-  /* line 28, ../scss/base/_768.scss */
+  /* line 31, ../scss/base/_768.scss */
   .newsletter {
     position: relative;
     float: left;
@@ -2221,11 +2326,28 @@ tweeners.
     margin-left: 0;
   }
 
-  /* line 33, ../scss/base/_768.scss */
+  /* line 36, ../scss/base/_768.scss */
+  .newsletter-cta {
+    width: 19.928177%;
+    margin-left: 0;
+  }
+
+  /* line 41, ../scss/base/_768.scss */
+  .checkboxes {
+    position: relative;
+    float: left;
+    margin-left: 2.762430939%;
+    width: 22.928176794%;
+  }
+
+  /* line 45, ../scss/base/_768.scss */
   .email-submit {
-    width: 44%;
-    float: right;
-    margin-top: 4px;
+    position: relative;
+    float: left;
+    margin-left: 2.762430939%;
+    width: 48.618784527%;
+    margin-left: 2.762431%;
+    margin-top: 5px;
   }
 }
 /*
@@ -2333,7 +2455,7 @@ you can add resource intensive styles.
   .onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol, .twelvecol {
     position: relative;
     float: left;
-    margin-left: 2.762430939%;
+    margin-left: .762430939%;
   }
 
   /* line 44, ../scss/base/_grid.scss */
@@ -2521,19 +2643,55 @@ you can add resource intensive styles.
   /*********************
   WIDGET STYLES
   *********************/
-  /* line 193, ../scss/base/_769up.scss */
-  .donate {
-    background: transparent;
-    position: relative;
-    float: left;
-    margin-left: 2.762430939%;
-    width: 22.928176794%;
-    margin-left: 0;
+  /*.donate {
+  	background: transparent;
+  	@include threecol;
+  	@include first;
   }
-
-  /* line 199, ../scss/base/_769up.scss */
+  
   .ticker {
-    background: transparent;
+  	background: transparent;
+  	@include threecol;
+  	margin-left: 0;
+  }
+  
+  .newsletter {
+  	background: transparent;
+  	@include sixcol;
+  	@include last;
+  }*/
+  /*
+  ******************************
+  * Home Widgets
+  ******************************
+  */
+  /* line 217, ../scss/base/_769up.scss */
+  .donate {
+    width: 50%;
+    float: left;
+  }
+  /* line 220, ../scss/base/_769up.scss */
+  .donate h1 {
+    text-align: center;
+  }
+
+  /* line 225, ../scss/base/_769up.scss */
+  .ticker {
+    width: 50%;
+    float: right;
+  }
+
+  /* line 230, ../scss/base/_769up.scss */
+  .newsletter {
+    position: relative;
+    float: left;
+    margin-left: 2.762430939%;
+    width: 99.999999993%;
+    margin-left: 0;
+  }
+
+  /* line 235, ../scss/base/_769up.scss */
+  .newsletter-cta {
     position: relative;
     float: left;
     margin-left: 2.762430939%;
@@ -2541,9 +2699,16 @@ you can add resource intensive styles.
     margin-left: 0;
   }
 
-  /* line 205, ../scss/base/_769up.scss */
-  .newsletter {
-    background: transparent;
+  /* line 240, ../scss/base/_769up.scss */
+  .checkboxes {
+    position: relative;
+    float: left;
+    margin-left: 2.762430939%;
+    width: 22.928176794%;
+  }
+
+  /* line 244, ../scss/base/_769up.scss */
+  .email-submit {
     position: relative;
     float: left;
     margin-left: 2.762430939%;
@@ -2554,28 +2719,28 @@ you can add resource intensive styles.
   /*********************
   FOOTER STYLES
   *********************/
-  /* line 214, ../scss/base/_769up.scss */
+  /* line 252, ../scss/base/_769up.scss */
   .quick-links {
     margin: 12px 0;
   }
 
-  /* line 218, ../scss/base/_769up.scss */
+  /* line 256, ../scss/base/_769up.scss */
   .footer-nav {
     margin: 12px 0;
   }
-  /* line 220, ../scss/base/_769up.scss */
+  /* line 258, ../scss/base/_769up.scss */
   .footer-nav li a {
     line-height: 1em;
   }
 
-  /* line 225, ../scss/base/_769up.scss */
+  /* line 263, ../scss/base/_769up.scss */
   .copyright {
     text-align: right;
     padding-right: 82px;
     margin: 12px 0;
   }
 
-  /* line 231, ../scss/base/_769up.scss */
+  /* line 269, ../scss/base/_769up.scss */
   .footer-logo {
     bottom: -16px;
   }
@@ -2583,28 +2748,26 @@ you can add resource intensive styles.
   /*********************
   SIDEBARS & ASIDES
   *********************/
-  /* line 239, ../scss/base/_769up.scss */
+  /* line 277, ../scss/base/_769up.scss */
   .sidebar {
     margin-top: 2.2em;
   }
 
-  /* line 243, ../scss/base/_769up.scss */
-  .widgettitle {
-    border-bottom: 2px solid #444;
-    margin-bottom: 0.75em;
-  }
-
-  /* line 248, ../scss/base/_769up.scss */
+  /*	.widgettitle {
+  		border-bottom: 1px solid #444;
+  		margin-bottom: 0.75em;
+  	}*/
+  /* line 286, ../scss/base/_769up.scss */
   .widget {
     padding: 0 10px;
     margin: 2.2em 0;
   }
-  /* line 253, ../scss/base/_769up.scss */
+  /* line 291, ../scss/base/_769up.scss */
   .widget ul li {
     margin-bottom: 0.75em;
     /* deep nesting */
   }
-  /* line 261, ../scss/base/_769up.scss */
+  /* line 299, ../scss/base/_769up.scss */
   .widget ul li ul {
     margin-top: 0.75em;
     padding-left: 1em;
@@ -2629,7 +2792,7 @@ you can add resource intensive styles.
   of overriding here if you styled them for
   mobile. Make sure to double check these!
   */
-  /* line 369, ../scss/base/_769up.scss */
+  /* line 407, ../scss/base/_769up.scss */
   .footer-links ul li {
     /*
     be careful with the depth of your menus.
@@ -2684,6 +2847,111 @@ TABLET LANDSCAPE
     padding: 0px;
     width: 28px;
   }
+
+  /* line 35, ../scss/base/_1024.scss */
+  #more {
+    margin: 20px 0;
+  }
+
+  /* line 39, ../scss/base/_1024.scss */
+  .donate {
+    position: relative;
+    float: left;
+    margin-left: 2.762430939%;
+    width: 22.928176794%;
+    margin-left: 0;
+    background: transparent;
+    padding: 0 20px;
+    margin-top: 6px;
+  }
+  /* line 45, ../scss/base/_1024.scss */
+  .donate h1 {
+    font-size: 32px;
+  }
+  /* line 47, ../scss/base/_1024.scss */
+  .donate h1 span {
+    font-size: 52px;
+  }
+
+  /* line 53, ../scss/base/_1024.scss */
+  .ticker {
+    position: relative;
+    float: left;
+    margin-left: 2.762430939%;
+    width: 22.928176794%;
+    background: transparent;
+    padding: 0 20px;
+    margin-left: 0;
+    border-left: 1px solid #1e2217;
+    border-right: 1px solid #1e2217;
+  }
+
+  /* line 62, ../scss/base/_1024.scss */
+  .newsletter {
+    width: 54.055249%;
+    float: right;
+    background: transparent;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    border-left: 0px;
+  }
+
+  /* line 72, ../scss/base/_1024.scss */
+  .newsletter-cta {
+    width: initial;
+    margin-left: 0;
+  }
+
+  /* line 77, ../scss/base/_1024.scss */
+  .checkboxes {
+    width: initial;
+    margin-left: 20px;
+  }
+
+  /* line 82, ../scss/base/_1024.scss */
+  .email-submit {
+    width: initial;
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+
+  /*.email-submit input[type="text"] {
+    width: 100px;
+  }*/
+  /*
+  ******************************
+  * In Between Media Queries
+  ******************************
+  */
+}
+@media only screen and (min-width: 1024px) and (min-width: 1204px) {
+  /* line 103, ../scss/base/_1024.scss */
+  .donate {
+    margin-top: 0;
+  }
+
+  /* line 107, ../scss/base/_1024.scss */
+  .donate h1 {
+    font-size: 42px;
+    text-align: center;
+  }
+
+  /* line 112, ../scss/base/_1024.scss */
+  .ticker {
+    position: relative;
+    float: left;
+    margin-left: 2.762430939%;
+    width: 22.928176794%;
+    margin-left: 0;
+  }
+
+  /* line 117, ../scss/base/_1024.scss */
+  .newsletter {
+    width: 53.618785%;
+    margin-left: 0px;
+  }
 }
 /*
 DESKTOP
@@ -2734,6 +3002,12 @@ This is for the larger monitors and possibly full screen viewers.
   on larger screens.
   
   ******************************************************************/
+}
+@media only screen and (min-width: 1240px) and (min-width: 1342px) {
+  /* line 14, ../scss/base/_1240up.scss */
+  .donate h1 {
+    font-size: 48px;
+  }
 }
 /*
 iPHONE 5 MEDIA QUERY

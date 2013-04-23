@@ -34,7 +34,6 @@
 		<?php wp_head(); ?>
 		<!-- end of wordpress head -->
 
-		<script src="//cdnjs.cloudflare.com/ajax/libs/FitText.js/1.1/jquery.fittext.min.js"></script>
 		<script src="<?php echo get_stylesheet_directory_uri() ?>/library/js/libs/responsive-nav.js"></script>
 		<script src="<?php echo get_stylesheet_directory_uri() ?>/library/js/libs/jquery.flexslider.js"></script>
 

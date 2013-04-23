@@ -9,3 +9,10 @@ on larger screens.
 
 ******************************************************************/
 
+@media only screen and (min-width: 1342px) {
+
+  .donate h1 {
+  font-size: 48px;
+  }
+
+} // end of media query

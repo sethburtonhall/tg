@@ -31,3 +31,92 @@
   width: 28px;
   }
 }
+
+#more {
+  margin: 20px 0;
+}
+
+.donate {
+  @include threecol;
+  @include first;
+  background: transparent;
+  padding: 0 20px;
+  margin-top: 6px;
+  h1 {
+    font-size: 32px;
+    span {
+      font-size: 52px;
+    }
+  }
+}
+
+.ticker {
+  @include threecol;
+  background: transparent;
+  padding: 0 20px;
+  margin-left: 0;
+  border-left: 1px solid $brand-black;
+  border-right: 1px solid $brand-black;
+}
+
+.newsletter {
+  width: 54.055249%;
+  @include last;
+  background: transparent;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  border-left: 0px;
+}
+
+.newsletter-cta {
+  width: initial;
+  @include first;
+}
+
+.checkboxes {
+  width: initial;
+  margin-left: 20px;
+}
+
+.email-submit {
+  width: initial;
+  float: left;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+/*.email-submit input[type="text"] {
+  width: 100px;
+}*/
+
+
+/*
+******************************
+* In Between Media Queries
+******************************
+*/
+
+
+@media only screen and (min-width: 1204px) {
+
+.donate {
+  margin-top: 0;
+}
+
+.donate h1 {
+  font-size: 42px;
+  text-align: center;
+}
+
+.ticker {
+  @include threecol;
+  margin-left: 0;
+}
+
+.newsletter {
+  width: 53.618785%;
+  margin-left: 0px;
+}
+
+} // end of media query

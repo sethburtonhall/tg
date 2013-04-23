@@ -18,6 +18,9 @@
 .donate {
 	width: 50%;
 	float: left;
+	h1 {
+		text-align: center;
+	}
 }
 
 .ticker {
@@ -30,9 +33,17 @@
 	@include first;
 }
 
-.email-submit {
-	width: 44%;
-	@include last;
-	margin-top: 4px;
+.newsletter-cta {
+	width: 19.928177%;
+	@include first;
+}
 
+.checkboxes {
+	@include threecol;
+}
+
+.email-submit {
+	@include sixcol;
+	margin-left: 2.762431%;
+	margin-top: 5px;
 }

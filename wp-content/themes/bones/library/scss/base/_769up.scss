@@ -190,7 +190,7 @@ SLIDER STYLES
 WIDGET STYLES
 *********************/
 
-.donate {
+/*.donate {
 	background: transparent;
 	@include threecol;
 	@include first;
@@ -204,6 +204,44 @@ WIDGET STYLES
 
 .newsletter {
 	background: transparent;
+	@include sixcol;
+	@include last;
+}*/
+
+/*
+******************************
+* Home Widgets
+******************************
+*/
+
+.donate {
+	width: 50%;
+	float: left;
+	h1 {
+		text-align: center;
+	}
+}
+
+.ticker {
+	width: 50%;
+	float: right;
+}
+
+.newsletter {
+	@include twelvecol;
+	@include first;
+}
+
+.newsletter-cta {
+	@include threecol;
+	@include first;
+}
+
+.checkboxes {
+	@include threecol;
+}
+
+.email-submit {
 	@include sixcol;
 	@include last;
 }
@@ -240,10 +278,10 @@ SIDEBARS & ASIDES
 	margin-top: 2.2em;
 }
 
-	.widgettitle {
-		border-bottom: 2px solid #444;
+/*	.widgettitle {
+		border-bottom: 1px solid #444;
 		margin-bottom: 0.75em;
-	}
+	}*/
 
 	.widget {
 		padding: 0 10px;
