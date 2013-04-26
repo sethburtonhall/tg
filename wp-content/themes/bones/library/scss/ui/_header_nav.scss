@@ -8,6 +8,7 @@
         border: 0px;
         background-color: transparent;
         color: $brand-orange;
+        padding: 10px 8px;
         &:hover {
           background-color: transparent;
           color: darken($brand-orange, 9%);
@@ -19,8 +20,8 @@
 .header-nav {
   position: relative;
   font-family: 'Haymaker';
-  font-size: $h6-size;
-  letter-spacing: .1em;
+  font-size: $h5-size;
+  letter-spacing: .01em;
   width: 320px;
   margin: auto;
   .nav {
@@ -34,7 +35,7 @@
 }
 
 .mask .nav li a{
-  color: $brand-orange;  /* Fallback: assume this color ON TOP of image */
+  color: $brand-black;  /* Fallback: assume this color ON TOP of image */
   background: url(http://localhost:8888/wp-content/themes/bones/library/images/header-nav-mask.jpg) no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

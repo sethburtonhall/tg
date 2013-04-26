@@ -1,0 +1,24 @@
+html, body { 
+   height: 100%;
+}
+
+.easy-instagram-thumbnail-wrapper {
+  position: relative;
+  float: left;
+  padding-bottom: 50%;
+  width: 50%;
+  a {
+    position: absolute;
+    left: -5px;
+    right: -5px;
+    top: 0px;
+    bottom: 0px;
+  }
+}
+
+.easy-instagram-thumbnail {
+  max-width: 100% !important;
+  width: 100% !important; /* Fix for IE - needs to be width: auto;*/
+  height: auto !important;
+  padding: 10px;
+}

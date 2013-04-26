@@ -91,9 +91,9 @@ $(window).load(function() {
     controlNav: false,
     animationLoop: true,
     slideshow: false,
-    itemWidth: 190,
+    itemWidth: 107,
     maxItems: 10, 
-    move: 1,
+    move: 3,
     asNavFor: '#slider',
   });
    
@@ -159,10 +159,16 @@ $(document).ready(function(){
   $(".video").fitVids();
 });
 
-// Instagram for Wordpress widget :nth-child
-// $("#instagram ul.wpinstagram li:nth-child(3n - 4) a img").css('margin-right', '0px !important');
+// Ticker
+
+// Instagram Widget :nth-child
 $("ul.wpinstagram li:nth-child(3n - 3) a img").attr('id', 'last-child');
 
+// Twitter Widget :last-child
+$(".tweets li:last-child").css('border-bottom', '0px');
+
+// Footer-Nav Widget :last-child
+$(".footer-nav li:last-child a").css({'border-right': '0px', 'margin-right': '0px', 'padding-right': '0px'});
 
 }); /* end of as page load scripts */
 

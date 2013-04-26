@@ -1,13 +1,13 @@
-			<footer class="twelvecol first clearfix footer" role="contentinfo">
+			<footer class="footer clearfix" role="contentinfo">
 
-				<div class="eightcol first clearfix">
+				<div class="footer-nav-wrap clearfix">
 					<nav role="navigation">
 						<p class="quick-links">QUICK LINKS</p>
 						<?php bones_footer_nav(); ?>
 					</nav>
 				</div>
 
-				<div class="fourcol last clearfix">
+				<div class="copyright-wrap clearfix">
 					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. All Rights Reserved</p>
 				</div>
 

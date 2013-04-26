@@ -58,52 +58,119 @@ $serif:             "Georgia", Cambria, Times New Roman, Times, serif;
 TYPOGRAPHY
 *********************/
 
-
-
+/*Haymaker*/
 @font-face {
-    font-family: 'gearedThin';
-    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-light-webfont.eot');
-    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-light-webfont.woff') format('woff'),
-         url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-light-webfont.ttf') format('truetype'),
-         url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-light-webfont.svg#geared_slabthin') format('svg');
+    font-family: 'haymaker';
+    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/haymaker/haymaker.eot');
+    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/haymaker/haymaker.eot?#iefix') format('embedded-opentype'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/haymaker/haymaker.woff') format('woff'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/haymaker/haymaker.ttf') format('truetype'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/haymaker/haymaker.svg#geared_slabextrabold') format('svg');
     font-weight: normal;
     font-style: normal;
+}
 
+/*Geared*/
+@font-face {
+    font-family: 'gearedThin';
+    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/geared/gearedslab-light-webfont.eot');
+    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/geared/gearedslab-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/geared/gearedslab-light-webfont.woff') format('woff'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/geared/gearedslab-light-webfont.ttf') format('truetype'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/geared/gearedslab-light-webfont.svg#geared_slabthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
     font-family: 'geared';
-    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-webfont.eot');
-    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-webfont.woff') format('woff'),
-         url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-webfont.ttf') format('truetype'),
-         url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-webfont.svg#geared_slabregular') format('svg');
+    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/geared/gearedslab-webfont.eot');
+    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/geared/gearedslab-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/geared/gearedslab-webfont.woff') format('woff'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/geared/gearedslab-webfont.ttf') format('truetype'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/geared/gearedslab-webfont.svg#geared_slabregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
     font-family: 'gearedBold';
-    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-bold-webfont.eot');
-    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-bold-webfont.woff') format('woff'),
-         url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-bold-webfont.ttf') format('truetype'),
-         url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-bold-webfont.svg#geared_slabbold') format('svg');
+    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/geared/gearedslab-bold-webfont.eot');
+    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/geared/gearedslab-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/geared/gearedslab-bold-webfont.woff') format('woff'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/geared/gearedslab-bold-webfont.ttf') format('truetype'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/geared/gearedslab-bold-webfont.svg#geared_slabbold') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
     font-family: 'gearedExtraBold';
-    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-extrabold-webfont.eot');
-    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-extrabold-webfont.woff') format('woff'),
-         url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-extrabold-webfont.ttf') format('truetype'),
-         url('http://localhost:8888/wp-content/themes/bones/library/fonts/gearedslab-extrabold-webfont.svg#geared_slabextrabold') format('svg');
+    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/geared/gearedslab-extrabold-webfont.eot');
+    src: url('http://localhost:8888/wp-content/themes/bones/library/fonts/geared/gearedslab-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/geared/gearedslab-extrabold-webfont.woff') format('woff'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/geared/gearedslab-extrabold-webfont.ttf') format('truetype'),
+         url('http://localhost:8888/wp-content/themes/bones/library/fonts/geared/gearedslab-extrabold-webfont.svg#geared_slabextrabold') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
+
+/*Custom Entypo Icon Font*/
+@font-face {
+    font-family: 'entypo';
+    src:url('http://localhost:8888/wp-content/themes/bones/library/fonts/entypo/entypo.eot');
+    src:url('http://localhost:8888/wp-content/themes/bones/library/fonts/entypo/entypo.eot?#iefix') format('embedded-opentype'),
+        url('http://localhost:8888/wp-content/themes/bones/library/fonts/entypo/entypo.woff') format('woff'),
+        url('http://localhost:8888/wp-content/themes/bones/library/fonts/entypo/entypo.ttf') format('truetype'),
+        url('http://localhost:8888/wp-content/themes/bones/library/fonts/entypo/entypo.svg#entypo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+    font-family: 'entypo';
+    content: attr(data-icon);
+    speak: none;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-flickr, .icon-vimeo, .icon-twitter, .icon-facebook, .icon-tumblr, .icon-instagram {
+    font-family: 'entypo';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.icon-flickr:before {
+    content: "\e000";
+}
+.icon-vimeo:before {
+    content: "\e001";
+}
+.icon-twitter:before {
+    content: "\e002";
+}
+.icon-facebook:before {
+    content: "\e003";
+}
+.icon-tumblr:before {
+    content: "\e004";
+}
+.icon-instagram:before {
+    content: "\e005";
+}
+

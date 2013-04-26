@@ -1,8 +1,10 @@
 .footer {
+  @include twelvecol;
+  @include first; 
   background-color: $brand-color;
   font-family: Helvetica;
   color: rgb(3, 8, 0);
-  margin: 20px 0 438px;
+  margin: 20px 0 94px;
   padding: 3px 20px;
 }
 
@@ -11,34 +13,68 @@
   font-size: 11px;
   font-weight: bold;
   line-height: 1em;
-  margin: 5px 0 10px;
+  margin: 0 10px 0 0;
+}
+
+.footer-nav-wrap {
+  @include twelvecol;
+  @include first;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .footer-nav {
   float: left;
   font-size: 11px;
   text-transform: uppercase;
-  margin: 5px 0 10px;
+  margin: 0;
   li a {
     line-height: 1em;
     color: $brand-black;
-    padding: 0 5px;
+    padding: 0 5px 0 0;
+    margin-right: 5px;
     border-right: 1px solid $brand-black;
   }
+}
+
+.copyright-wrap {
+  @include twelvecol;
+  @include last;
+  margin-bottom: 10px;
 }
 
 .copyright {
   font-size: 11px;
   line-height: 1em;
-  margin: 0px 0 5px;
+  margin: 0;
 }
 
+.footer-logo-wrap {
+  width: 75px;
+  height: 75px;
+  margin: 118px auto 0;
+}
 .footer-logo {
   background: url(http://localhost:8888/wp-content/themes/bones/library/images/footer-logo.png) no-repeat;
-  height: 75px;
-  width: 75px;
+  height: 80px;
+  width: 80px;
   background-size: 100%;
   position: absolute;
-  bottom: 423px;
+  bottom: -88px;
+  right: 120px;
+}
+
+/*
+******************************
+* In Between Media Queries
+******************************
+*/
+
+@media only screen and (min-width: 390px) {
+
+.footer-logo {
+  bottom: -12px;
   right: 20px;
 }
+
+} // end of media query

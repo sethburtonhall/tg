@@ -1,19 +1,35 @@
 .social-nav {
   margin: 20px auto;
-  width: 310px;
-  height: 30px;
+  width: 224px;
+  height: 33px;
 }
 
 #nav .social-nav ul li{
   display: inline;
-  a {
-  border: 0px;
-  float: left;
   padding: 2px;
-  width: 44px;
-  }
-  img {
-    width: 28px;
+  float: left;
+  clear: none;
+  a {
+    float: left;
     height: 28px;
+    width: 28px;
+    padding: 0;
+    color: $brand-black;
+    font-size: 28px;
+    line-height: 1em;
+    text-decoration: none;
+    border: 0px;
+    &:hover {
+      color: $brand-white;
+    }
+  }
+}
+
+.icon-more {
+  background: url('http://localhost:8888/wp-content/themes/bones/library/images/more.png');
+  background-size: 100%;
+  &:hover {
+    background: url('http://localhost:8888/wp-content/themes/bones/library/images/more-hover.png');
+    background-size: 100%;
   }
 }

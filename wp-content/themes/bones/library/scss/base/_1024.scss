@@ -1,37 +1,75 @@
+/*********************
+NAVIGATION STYLES
+*********************/
+
+.header-gradient {
+  height: 110px;
+}
+
 .header-nav {
-  width: 488px;
-  font-size: 25px;
+  width: 563px;
+  font-size: $h2-size;
   margin: $base-space + 4 auto 0;
-  float: right;
 }
 
 .mask .nav li:last-child a {
   padding-right: 0px;
 }
 
-.main-nav {
-  font-size: .9em;
+.main-nav-wrapper {
+  background: transparent;
+  margin: 0;
+  font-size: 1em;
+  border-top: 0px;
 }
 
-#nav ul li a {
-  padding: 7px 9px;
+.main-nav {
+  border-top: 0;
+  padding: 24px 0 0 0;
+  height: 52px;
+    .nav li {
+      border-right: 2px solid $brand-black;
+     }
+}
+
+#nav ul li {
+  display: inline-block;
+  float: left;
+  clear: none;
+  a {
+    padding: 7px 9px;
+    border-bottom: 0px;
+  }
+  &:first-child a {
+  padding-left: 0px;
+  }
+}
+
+.js #nav {
+  position: relative;
+  max-height: none;
+}
+
+#nav-toggle {
+  display: none;
+}
+
+.home #content {
+margin: 12px 0;
 }
 
 .social-nav {
   position: absolute;
   top: -6px;
   right: 0px;
-  width: 224px;
 }
 
-#nav .social-nav ul li {
-  padding: 2px;
-  a {
-  padding: 0px;
-  width: 28px;
-  }
-}
 
+/*
+******************************
+* WIDGET STYLES
+******************************
+*/
 #more {
   margin: 20px 0;
 }
@@ -50,7 +88,7 @@
   }
 }
 
-.ticker {
+.ticker-wrapper {
   @include threecol;
   background: transparent;
   padding: 0 20px;
@@ -63,32 +101,32 @@
   width: 54.055249%;
   @include last;
   background: transparent;
-  padding: 0px 20px;
+  padding: 0px 20px 0 10px;
   margin-bottom: 20px;
   margin-left: 0;
   border-left: 0px;
 }
 
-.newsletter-cta {
-  width: initial;
+.welcome-video {
+  @include twelvecol;
   @include first;
 }
 
-.checkboxes {
-  width: initial;
-  margin-left: 20px;
+.instagram {
+  @include sixcol;
+  @include first;
 }
 
-.email-submit {
-  width: initial;
-  float: left;
-  margin-top: 5px;
-  margin-left: 20px;
+.twitter {
+  @include sixcol;
+  @include last;
 }
 
-/*.email-submit input[type="text"] {
-  width: 100px;
-}*/
+.recent-posts {
+  @include twelvecol;
+  @include first;
+
+}
 
 
 /*
@@ -109,7 +147,7 @@
   text-align: center;
 }
 
-.ticker {
+.ticker-wrapper {
   @include threecol;
   margin-left: 0;
 }

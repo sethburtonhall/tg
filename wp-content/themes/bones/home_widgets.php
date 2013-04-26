@@ -1,13 +1,13 @@
-<div class="widget-wrapper clearfix">
+<div id="more-info" class="widget-wrapper clearfix">
 
     <div id="more" class="more clearfix">
       <div class="donate">
         <a href="/donate" title="Donate Now"><h1>DONATE NOW <span class="arrow">»</span></h1></a>
       </div>
 
-      <div class="ticker">
+      <div class="ticker-wrapper">
         <h2>LATEST NEWS:</h2>
-        <p>Scrolling Ticker | ... </p>
+        <?php put_ticker( true ); ?>
       </div>
 
       <div class="newsletter clearfix">
@@ -39,7 +39,7 @@
 
     <!-- get home widgets -->
     
-    <div id="widgets" class="twelvecol first clearfix widgets ">
+    <div id="widgets" class="widgets clearfix">
 
         <!-- Welcome Video Widget -->
         <?php if ( is_active_sidebar( 'welcome-video' )) { ?>
@@ -58,5 +58,3 @@
         <?php dynamic_sidebar( 'recent-posts' );} ?>
 
     </div> <!-- end widgets -->
-
-</div> <!-- end widget-wrapper -->

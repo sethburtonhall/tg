@@ -9,6 +9,44 @@ on larger screens.
 
 ******************************************************************/
 
+/*.welcome-video {
+  @include fourcol;
+  @include first;
+}
+
+.instagram {
+  @include fourcol;
+}
+
+.twitter {
+  @include fourcol;
+  @include last;
+}
+
+.recent-posts {
+  @include twelvecol;
+  @include first;
+}*/
+
+.welcome-video {
+  @include threecol;
+  @include first;
+}
+
+.instagram {
+  @include threecol;
+}
+
+.twitter {
+  @include threecol;
+}
+
+.recent-posts {
+  @include threecol;
+  @include last;
+}
+
+
 @media only screen and (min-width: 1342px) {
 
   .donate h1 {

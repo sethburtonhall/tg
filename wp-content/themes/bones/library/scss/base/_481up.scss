@@ -14,7 +14,21 @@ so you still want to keep it pretty light and simply expand
 upon your base.scss styles.
 
 ******************************************************************/
-	
+/*********************
+HEADER STYLES
+*********************/
+
+.header-gradient {
+	background: #f2f2f0;
+  background: -moz-linear-gradient(left,  rgba(242,242,240,1) 0%, rgba(242,242,240,1) 40%, rgba(242,242,240,0) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(242,242,240,1)), color-stop(40%,rgba(242,242,240,1)), color-stop(100%,rgba(242,242,240,0))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  rgba(242,242,240,1) 0%,rgba(242,242,240,1) 40%,rgba(242,242,240,0) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  rgba(242,242,240,1) 0%,rgba(242,242,240,1) 40%,rgba(242,242,240,0) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  rgba(242,242,240,1) 0%,rgba(242,242,240,1) 40%,rgba(242,242,240,0) 100%); /* IE10+ */
+  background: linear-gradient(to right,  rgba(242,242,240,1) 0%,rgba(242,242,240,1) 40%,rgba(242,242,240,0) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f0', endColorstr='#00f2f2f0',GradientType=1 ); /* IE6-9 */
+}
+
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -22,6 +36,7 @@ NAVIGATION STYLES
 .header-nav {
 	width: 479px;
   font-size: $h3-size;
+  letter-spacing: .1em;
 }
 
 .nav {}
@@ -93,11 +108,11 @@ WIDGET STYLES
   border-bottom: 1px solid $brand-black;
 }
 
-.donate, .ticker, .newsletter {
+.donate, .ticker-wrapper, .newsletter {
   border-bottom: 0px;
 }
 
-.ticker, .newsletter {
+.ticker-wrapper, .newsletter {
   border-left: 1px solid $brand-black;
   padding-left: 20px;
   p {
@@ -110,8 +125,29 @@ WIDGET STYLES
 	background: $brand-white;
 }*/
 
-.ticker {
+.ticker-wrapper {
 border-left: 0px;
+}
+
+.easy-instagram-thumbnail-wrapper {
+  position: relative;
+  float: left;
+  padding-bottom: 33.3%;
+  width: 33.3%;
+  a {
+    position: absolute;
+    left: -5px;
+    right: -5px;
+    top: 0px;
+    bottom: 0px;
+  }
+}
+
+.easy-instagram-thumbnail {
+  max-width: 100% !important;
+  width: 100% !important; /* Fix for IE - needs to be width: auto;*/
+  height: auto !important;
+  padding: 10px;
 }
 
 /*********************
@@ -120,10 +156,6 @@ FOOTER STYLES
 
 .footer {
 	padding: 3px 30px;
-}
-
-.footer-logo {
-  right: 30px;
 }
 
 /*********************
@@ -176,19 +208,33 @@ do they need tweaking?
 
 @media only screen and (min-width: 600px) {
 
-	.newsletter-cta {
-		@include threecol;
-		@include first;
-	}
+.email-submit {
+  float: none;
+  margin-left: 348px;
+  width: auto;
+  margin-top: 5px;
+}
 
-	.checkboxes {
-		@include fourcol;
-	}
+} // end of media query
 
-	.email-submit {
-		@include fivecol;
-		@include last;
-		margin: 5px 0 0;
-	}
+@media only screen and (min-width: 680px) {
+
+.footer-nav-wrap {
+  @include sixcol;
+  @include first;
+}
+
+
+.copyright-wrap {
+  @include sixcol;
+  @include last;
+  text-align: right;
+  margin: 10px 0;
+  padding-right: 80px;
+}
+
+.footer-logo {
+  bottom: -22px;
+}
 
 } // end of media query
