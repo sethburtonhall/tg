@@ -34,6 +34,10 @@
     padding: 0 5px 0 0;
     margin-right: 5px;
     border-right: 1px solid $brand-black;
+    &:hover {
+      background: transparent;
+      color: $brand-white;
+    }
   }
 }
 

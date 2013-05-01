@@ -1,0 +1,21 @@
+/*
+******************************
+* Page Styles
+******************************
+*/
+
+.page .entry-content {
+  font-family: 'gearedThin';
+  font-size: 27px;
+  a {
+    font-family: 'haymaker';
+    color: $brand-color;
+    text-decoration: none;
+    [data-icon] {
+      color: $brand-orange;
+      position: relative;
+      top: 4px;
+      right: -10px;
+    }
+  }
+}

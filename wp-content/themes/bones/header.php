@@ -16,7 +16,7 @@
 		<!-- mobile meta (hooray!) -->
 		<meta name="HandheldFriendly" content="True">
 		<meta name="MobileOptimized" content="320">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta name="viewport" content="width=device-width">
 
 		<!-- icons & favicons (for more: http://www.jonathantneal.com/blog/understand-the-favicon/) -->
 		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-icon-touch.png">
@@ -62,14 +62,14 @@
 
 						<div class="sevencol last clearfix">
 							<nav role="navigation" class="header-nav mask">
-								<?php bones_header_nav(); ?>
+								<?php tg_header_nav(); ?>
 							</nav>
 						</div>
 
 						<div class="twelvecol first">
 							<div class="main-nav-wrapper">
 								<nav id="nav" role="navigation" class="main-nav">
-									<?php bones_main_nav(); ?>
+									<?php tg_main_nav(); ?>
 									<div class="social-nav">
 										<ul>
 											<li><a href="http://instagram.com/traininggroundcolorado" target="_blank" title="Instagram" class="icon-instagram"></a></li>

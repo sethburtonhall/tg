@@ -76,8 +76,8 @@ you like. Enjoy!
 function bones_register_sidebars() {
 	register_sidebar(array(
 		'id' => 'sidebar1',
-		'name' => __('Sidebar 1', 'bonestheme'),
-		'description' => __('The first (primary) sidebar.', 'bonestheme'),
+		'name' => __('Sidebar', 'bonestheme'),
+		'description' => __('The primary sidebar.', 'bonestheme'),
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h4 class="widgettitle">',
@@ -97,7 +97,7 @@ function bones_register_sidebars() {
 		register_sidebar(array(
 			'id' => 'instagram-feed',
 			'name' => __('Instagram Feed', 'bonestheme'),
-			'description' => __('This displays your six most recent Instagram photos in the home page widget area.', 'bonestheme'),
+			'description' => __('This displays your six most recent Instagram photos in the home page widget area. Editing these settings may break your website layout. PLEASE PROCEED WITH CAUTION.', 'bonestheme'),
 			'before_widget' => '<div id="instagram" class="instagram">',
 			'after_widget' => '</div>',
 			'before_title' => '<h3 class="widgettitle">',
@@ -117,7 +117,7 @@ function bones_register_sidebars() {
 		register_sidebar(array(
 			'id' => 'recent-posts',
 			'name' => __('Most Recent Blog Posts', 'bonestheme'),
-			'description' => __('This displays your two most recent blog posts in the home page widget area.', 'bonestheme'),
+			'description' => __('This displays your two most recent blog posts in the home page widget area. Editing these settings may break your website layout. PLEASE PROCEED WITH CAUTION.', 'bonestheme'),
 			'before_widget' => '<div class="recent-posts">',
 			'after_widget' => '</div>',
 			'before_title' => '<h3 class="widgettitle">',
@@ -208,6 +208,7 @@ function bones_wpsearch($form) {
 register_nav_menus( array(
 	'headerNav' => __( 'Header Navigation', 'bones' ),
 	'mainNav' => __( 'Main Navigation', 'bones' ),
+	'summerNav' => __( 'Summer Adventures Page Navigation', 'bones' ),
 	'footerNav' => __( 'Footer Navigation', 'bones' ),
 ) );
 

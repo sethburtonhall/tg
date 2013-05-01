@@ -1,0 +1,115 @@
+/*
+******************************
+* General Blog Page Styles
+* Index/Single/Author/Archives
+* Catogories/Comments/etc...
+******************************
+*/
+
+.post {
+  border-bottom: 1px solid lighten($brand-gray, 30%);
+  margin-bottom: 20px;
+}
+
+/*
+******************************
+* Article Headers
+******************************
+*/
+
+.article-header {
+  h1 {
+    font-family: 'haymaker';
+    color: $brand-orange;
+    a {
+      color: $brand-orange;
+      text-decoration: none;
+      &:hover {
+        color: $brand-darkGray;
+      }
+    }
+    [data-icon] {
+      color: $brand-color;
+      font-size: $h1-size;
+      position: relative;
+      top: 2px;
+      right: -10px;
+    }
+  }
+}
+
+.article-header {
+  h3 {
+    font-family: 'haymaker';
+    color: $brand-orange;
+    a {
+      color: $brand-orange;
+      text-decoration: none;
+      &:hover {
+        color: $brand-darkGray;
+      }
+    }
+    [data-icon] {
+      color: $brand-color;
+      font-size: $h3-size;
+      position: relative;
+      top: 2px;
+      right: -10px;
+    }
+  }
+}
+
+.article-header {
+  p {
+    font-family: 'geared';
+  }
+}
+
+.byline a {
+  color: $brand-color;
+  text-decoration: none;
+  &:hover {
+    color: $brand-darkGray;
+  }
+}
+
+/*
+******************************
+* Pagination
+******************************
+*/
+.bones_page_navi li.bpn-current {
+  border-bottom: 0px;
+}
+
+.bones_page_navi li a:hover{
+  color: $brand-darkGray;
+  text-decoration: none;
+}
+
+.bones_page_navi li.bpn-prev-link {
+  [data-icon] {
+    color: $brand-color;
+    font-size: $h6-size;
+    position: relative;
+    top: 5px;
+    right: -6px;
+    &:hover {
+      color: $brand-darkGray;
+    }
+  }
+}
+
+
+.bones_page_navi li.bpn-next-link {
+  [data-icon] {
+    color: $brand-color;
+    font-size: $h6-size;
+    position: relative;
+    top: 5px;
+    right: 6px;
+    &:hover {
+      color: $brand-darkGray;
+    }
+  }
+}

@@ -142,30 +142,29 @@ var check_it = function() {
     };
 };
 
-// $(function() {
-//   $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
-// });
-
 // $('#nav li a').click(function () {
 //     $('#nav li a').removeClass('active');
 //     $(this).parent('li').addClass('active');
 // });
-
-// fitText.js
-// $(".flex-caption").fitText(1.2, { minFontSize: '14px', maxFontSize: '30px' })
 
 // FitVids.js
 $(document).ready(function(){
   $(".video").fitVids();
 });
 
-// Ticker
+// Last Child's
+
+// Header Nav :last-child
+$(".header-nav ul li:last-child a").css('padding-right', '0px');
 
 // Instagram Widget :nth-child
 $("ul.wpinstagram li:nth-child(3n - 3) a img").attr('id', 'last-child');
 
 // Twitter Widget :last-child
 $(".tweets li:last-child").css('border-bottom', '0px');
+
+// Recent Posts Widget :last-child
+$(".recent-posts li:first-child").css({'border-top': '0px', 'padding-top': '0px'});
 
 // Footer-Nav Widget :last-child
 $(".footer-nav li:last-child a").css({'border-right': '0px', 'margin-right': '0px', 'padding-right': '0px'});

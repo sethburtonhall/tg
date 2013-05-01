@@ -1,14 +1,29 @@
 @import "base/base";
 
 @import "ui/typography";
+
+@import "ui/page";
+/*blog pages*/
+@import "ui/general";
+@import "ui/index";
+@import "ui/single";
+@import "ui/author";
+@import "ui/catagories";
+@import "ui/comments";
+@import "ui/archives";
+@import "ui/sidebar";
+
 @import "ui/header";
 @import "ui/header_nav";
 @import "ui/main_nav";
 @import "ui/social_nav";
 @import "ui/flexslider";
 @import "ui/home_widgets";
+
 @import "ui/instagram";
 @import "ui/twitter";
+@import "ui/recent_posts";
+
 @import "ui/footer";
 
 @import "base/media_queries";
@@ -27,8 +42,40 @@
 
 body {
   position: relative;
-  background-color: $brand-subColor;
+  background-color: #fff;
 }
 
+/*
+******************************************
+* header and widget wrapper on all pages
+******************************************
+*/
+.header {
+  -moz-box-shadow:      0px 0px 10px 7px $brand-gray;
+  -webkit-box-shadow:   0px 0px 10px 7px $brand-gray;
+    box-shadow:         0px 0px 10px 7px $brand-gray;
+}
+.widget-wrapper {
+  -moz-box-shadow:      0px 0px 10px 7px $brand-gray;
+  -webkit-box-shadow:   0px 0px 10px 7px $brand-gray;
+    box-shadow:         0px 0px 10px 7px $brand-gray;
+}
 
+/*
+**********************************************
+* header and widget wrapper default overrides
+**********************************************
+*/
+.home {
+  .header {
+    -moz-box-shadow:      0px;
+    -webkit-box-shadow:   0px;
+      box-shadow:         0px;
+  }
+  .widget-wrapper {
+    -moz-box-shadow:      0px;
+    -webkit-box-shadow:   0px;
+      box-shadow:         0px;
+  }
+}
 

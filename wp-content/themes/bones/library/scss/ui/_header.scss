@@ -9,13 +9,14 @@
 
 .header {
   position: relative;
+  background: $brand-subColor;
 }
 
 .header-img {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 177px;
+  height: 165px;
   background: url('http://localhost:8888/wp-content/themes/bones/library/images/header-bg.jpg') no-repeat;
   opacity: .3;
 }

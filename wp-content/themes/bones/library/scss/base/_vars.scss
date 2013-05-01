@@ -7,7 +7,8 @@ $brand-subColor:     #8C9364; /*army green*/
 $brand-orange:       #D98339;
 $brand-black:        #1e2217;
 $brand-white:        #D3D8C5;
-$brand-gray:        #95988A;
+$brand-gray:         #95988A;
+$brand-darkGray:     #565656;
 
 $base-space:        20px;
 $brand-round:        5px!default;
@@ -28,8 +29,8 @@ $white:             #fff;
 $bones-pink:        #f01d4f;
 $bones-blue:        #1990db;
 
-$link-color:        $bones-pink;
-$link-hover:        darken($link-color, 9%);
+$link-color:        #729251;
+$link-hover:        #565656;
 
 
 /*********************
@@ -145,7 +146,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon-flickr, .icon-vimeo, .icon-twitter, .icon-facebook, .icon-tumblr, .icon-instagram {
+.icon-flickr, .icon-vimeo, .icon-twitter, .icon-facebook, .icon-tumblr, .icon-instagram, .icon-arrow-up, .icon-arrow-right, .icon-arrow-down, .icon-arrow-left {
     font-family: 'entypo';
     speak: none;
     font-style: normal;
@@ -172,5 +173,17 @@ you can use the generic selector below, but it's slower:
 }
 .icon-instagram:before {
     content: "\e005";
+}
+.icon-arrow-up:before {
+    content: "\e006";
+}
+.icon-arrow-right:before {
+    content: "\e007";
+}
+.icon-arrow-down:before {
+    content: "\e008";
+}
+.icon-arrow-left:before {
+    content: "\e009";
 }
 

@@ -3,7 +3,7 @@
 				<div class="footer-nav-wrap clearfix">
 					<nav role="navigation">
 						<p class="quick-links">QUICK LINKS</p>
-						<?php bones_footer_nav(); ?>
+						<?php tg_footer_nav(); ?>
 					</nav>
 				</div>
 

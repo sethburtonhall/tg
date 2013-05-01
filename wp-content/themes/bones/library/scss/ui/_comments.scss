@@ -1,0 +1,23 @@
+/*
+******************************
+* Comment Styles
+******************************
+*/
+
+.respond-form {
+  color: #3E3E3E;
+  .h2 {
+    font-family: 'gearedBold';
+    color: #3E3E3E;
+  }
+  .comments-logged-in-as {
+    font-family: 'geared';
+  }
+  input[type="submit"] {
+    padding: 12px;
+  }
+}
+
+.respond-form form textarea {
+  font-family: 'gearedThin';
+}

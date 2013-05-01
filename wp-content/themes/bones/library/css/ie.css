@@ -84,7 +84,7 @@ TYPOGRAPHY
 }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
-/* line 131, ../scss/base/_vars.scss */
+/* line 132, ../scss/base/_vars.scss */
 [data-icon]:before {
   font-family: 'entypo';
   content: attr(data-icon);
@@ -102,8 +102,8 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-/* line 148, ../scss/base/_vars.scss */
-.icon-flickr, .icon-vimeo, .icon-twitter, .icon-facebook, .icon-tumblr, .icon-instagram {
+/* line 149, ../scss/base/_vars.scss */
+.icon-flickr, .icon-vimeo, .icon-twitter, .icon-facebook, .icon-tumblr, .icon-instagram, .icon-arrow-up, .icon-arrow-right, .icon-arrow-down, .icon-arrow-left {
   font-family: 'entypo';
   speak: none;
   font-style: normal;
@@ -114,34 +114,54 @@ you can use the generic selector below, but it's slower:
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 158, ../scss/base/_vars.scss */
+/* line 159, ../scss/base/_vars.scss */
 .icon-flickr:before {
   content: "\e000";
 }
 
-/* line 161, ../scss/base/_vars.scss */
+/* line 162, ../scss/base/_vars.scss */
 .icon-vimeo:before {
   content: "\e001";
 }
 
-/* line 164, ../scss/base/_vars.scss */
+/* line 165, ../scss/base/_vars.scss */
 .icon-twitter:before {
   content: "\e002";
 }
 
-/* line 167, ../scss/base/_vars.scss */
+/* line 168, ../scss/base/_vars.scss */
 .icon-facebook:before {
   content: "\e003";
 }
 
-/* line 170, ../scss/base/_vars.scss */
+/* line 171, ../scss/base/_vars.scss */
 .icon-tumblr:before {
   content: "\e004";
 }
 
-/* line 173, ../scss/base/_vars.scss */
+/* line 174, ../scss/base/_vars.scss */
 .icon-instagram:before {
   content: "\e005";
+}
+
+/* line 177, ../scss/base/_vars.scss */
+.icon-arrow-up:before {
+  content: "\e006";
+}
+
+/* line 180, ../scss/base/_vars.scss */
+.icon-arrow-right:before {
+  content: "\e007";
+}
+
+/* line 183, ../scss/base/_vars.scss */
+.icon-arrow-down:before {
+  content: "\e008";
+}
+
+/* line 186, ../scss/base/_vars.scss */
+.icon-arrow-left:before {
+  content: "\e009";
 }
 
 /*********************
@@ -405,23 +425,19 @@ WIDGET STYLES
   margin: 0;
 }
 
-/*.more {
-	border-bottom: 0px;
-	background: $brand-white;
-}*/
-/* line 128, ../scss/base/_481up.scss */
+/* line 123, ../scss/base/_481up.scss */
 .ticker-wrapper {
   border-left: 0px;
 }
 
-/* line 132, ../scss/base/_481up.scss */
+/* line 127, ../scss/base/_481up.scss */
 .easy-instagram-thumbnail-wrapper {
   position: relative;
   float: left;
   padding-bottom: 33.3%;
   width: 33.3%;
 }
-/* line 137, ../scss/base/_481up.scss */
+/* line 132, ../scss/base/_481up.scss */
 .easy-instagram-thumbnail-wrapper a {
   position: absolute;
   left: -5px;
@@ -430,7 +446,7 @@ WIDGET STYLES
   bottom: 0px;
 }
 
-/* line 146, ../scss/base/_481up.scss */
+/* line 141, ../scss/base/_481up.scss */
 .easy-instagram-thumbnail {
   max-width: 100% !important;
   width: 100% !important;
@@ -442,7 +458,7 @@ WIDGET STYLES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 157, ../scss/base/_481up.scss */
+/* line 152, ../scss/base/_481up.scss */
 .footer {
   padding: 3px 30px;
 }
@@ -451,23 +467,23 @@ FOOTER STYLES
 POSTS & CONTENT STYLES
 *********************/
 /* entry content */
-/* line 166, ../scss/base/_481up.scss */
+/* line 161, ../scss/base/_481up.scss */
 .entry-content {
   /* at this larger size, we can start to align images */
 }
-/* line 170, ../scss/base/_481up.scss */
+/* line 165, ../scss/base/_481up.scss */
 .entry-content .alignleft, .entry-content img.alignleft {
   margin-right: 1.5em;
   display: inline;
   float: left;
 }
-/* line 175, ../scss/base/_481up.scss */
+/* line 170, ../scss/base/_481up.scss */
 .entry-content .alignright, .entry-content img.alignright {
   margin-left: 1.5em;
   display: inline;
   float: right;
 }
-/* line 180, ../scss/base/_481up.scss */
+/* line 175, ../scss/base/_481up.scss */
 .entry-content .aligncenter, .entry-content img.aligncenter {
   margin-right: auto;
   margin-left: auto;
@@ -476,21 +492,13 @@ POSTS & CONTENT STYLES
 }
 
 /* end .entry-content */
-/*********************
-FOOTER STYLES
-*********************/
-/*
-check your menus here. do they look good?
-do they need tweaking?
-*/
-/* end .footer-links */
 /*
 ******************************
 * In Between Media Queries
 ******************************
 */
 @media only screen and (min-width: 600px) {
-  /* line 211, ../scss/base/_481up.scss */
+  /* line 192, ../scss/base/_481up.scss */
   .email-submit {
     float: none;
     margin-left: 348px;
@@ -499,7 +507,7 @@ do they need tweaking?
   }
 }
 @media only screen and (min-width: 680px) {
-  /* line 222, ../scss/base/_481up.scss */
+  /* line 203, ../scss/base/_481up.scss */
   .footer-nav-wrap {
     position: relative;
     float: left;
@@ -508,7 +516,7 @@ do they need tweaking?
     margin-left: 0;
   }
 
-  /* line 228, ../scss/base/_481up.scss */
+  /* line 209, ../scss/base/_481up.scss */
   .copyright-wrap {
     position: relative;
     float: left;
@@ -520,7 +528,7 @@ do they need tweaking?
     padding-right: 80px;
   }
 
-  /* line 236, ../scss/base/_481up.scss */
+  /* line 217, ../scss/base/_481up.scss */
   .footer-logo {
     bottom: -22px;
   }
@@ -554,7 +562,7 @@ HEADER STYLES
 *********************/
 /* line 34, ../scss/base/_768up.scss */
 .header-nav {
-  width: 423px;
+  width: 429px;
   font-size: 21px;
   margin: 30px auto 0;
   float: right;
@@ -585,16 +593,8 @@ NAVIGATION STYLES
 /* line 56, ../scss/base/_768up.scss */
 .nav li a {
   border-bottom: 0;
-  /*
-  you can use hover styles here even though this size
-  has the possibility of being a mobile device.
-  */
 }
-/* line 63, ../scss/base/_768up.scss */
-.nav li a:hover, .nav li a:focus {
-  background-color: #dedede;
-}
-/* line 76, ../scss/base/_768up.scss */
+/* line 64, ../scss/base/_768up.scss */
 .nav li ul.sub-menu,
 .nav li ul.children {
   margin-top: 0;
@@ -605,7 +605,7 @@ NAVIGATION STYLES
   z-index: 8999;
   /* highlight sub-menu current page */
 }
-/* line 84, ../scss/base/_768up.scss */
+/* line 72, ../scss/base/_768up.scss */
 .nav li ul.sub-menu li,
 .nav li ul.children li {
   /*
@@ -614,7 +614,7 @@ NAVIGATION STYLES
   for usability. k, bai.
   */
 }
-/* line 86, ../scss/base/_768up.scss */
+/* line 74, ../scss/base/_768up.scss */
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding-left: 10px;
@@ -623,12 +623,12 @@ NAVIGATION STYLES
   width: 180px;
   border-bottom: 1px solid #ccc;
 }
-/* line 103, ../scss/base/_768up.scss */
+/* line 91, ../scss/base/_768up.scss */
 .nav li ul.sub-menu li:last-child a,
 .nav li ul.children li:last-child a {
   border-bottom: 0;
 }
-/* line 125, ../scss/base/_768up.scss */
+/* line 113, ../scss/base/_768up.scss */
 .nav li:hover ul {
   top: auto;
   display: block;
@@ -640,7 +640,7 @@ NAVIGATION STYLES
 /*********************
 SLIDER STYLES
 *********************/
-/* line 143, ../scss/base/_768up.scss */
+/* line 131, ../scss/base/_768up.scss */
 .flex-caption {
   bottom: -40px;
   padding: 40px;
@@ -652,14 +652,14 @@ SLIDER STYLES
 * Home Widgets
 ******************************
 */
-/* line 156, ../scss/base/_768up.scss */
+/* line 144, ../scss/base/_768up.scss */
 #more {
   margin: 0px;
   overflow: hidden;
   /*donate and ticker modules hack*/
 }
 
-/* line 161, ../scss/base/_768up.scss */
+/* line 149, ../scss/base/_768up.scss */
 .donate {
   width: 50%;
   float: left;
@@ -668,12 +668,12 @@ SLIDER STYLES
   margin-bottom: -30px;
   /*donate and ticker modules hack*/
 }
-/* line 166, ../scss/base/_768up.scss */
+/* line 154, ../scss/base/_768up.scss */
 .donate h1 {
   text-align: center;
 }
 
-/* line 171, ../scss/base/_768up.scss */
+/* line 159, ../scss/base/_768up.scss */
 .ticker-wrapper {
   width: 50%;
   float: right;
@@ -683,7 +683,7 @@ SLIDER STYLES
   /*donate and ticker modules hack*/
 }
 
-/* line 178, ../scss/base/_768up.scss */
+/* line 166, ../scss/base/_768up.scss */
 .newsletter {
   position: relative;
   float: left;
@@ -692,56 +692,84 @@ SLIDER STYLES
   margin-left: 0;
 }
 
-/*.newsletter-cta {
-	@include threecol;
-	@include first;
-}*/
-/*********************
-FOOTER STYLES
-*********************/
-/*.quick-links {
-  margin: 12px 10px 0 0;
+/*
+******************************
+* Index Styles
+******************************
+*/
+/*
+******************************
+* Single Page Styles
+******************************
+*/
+/* line 185, ../scss/base/_768up.scss */
+.single .article-wrap {
+  position: relative;
+  float: left;
+  margin-left: 2.762430939%;
+  width: 99.999999993%;
+  margin-left: 0;
 }
 
-.footer-nav {
-  margin: 12px 0;
-  li a {
-    line-height: 1em;
-  }
+/* line 189, ../scss/base/_768up.scss */
+.single .article-header {
+  position: relative;
+  float: left;
+  margin-left: 2.762430939%;
+  width: 31.491712705%;
+  margin-left: 0;
 }
 
-.copyright {
-  text-align: right;
-  padding-right: 82px;
-  margin: 12px 0;
+/* line 194, ../scss/base/_768up.scss */
+.single .entry-content {
+  position: relative;
+  float: left;
+  margin-left: 2.762430939%;
+  width: 65.74585634900001%;
+  float: right;
 }
 
-.footer-logo {
-  bottom: -16px;
-}*/
+/* line 199, ../scss/base/_768up.scss */
+.respond-form {
+  position: relative;
+  float: left;
+  margin-left: 2.762430939%;
+  width: 65.74585634900001%;
+  float: right;
+}
+
+/*
+******************************
+* Archive Styles
+******************************
+*/
+/* line 211, ../scss/base/_768up.scss */
+.sidebar {
+  position: relative;
+  float: left;
+  margin-left: 2.762430939%;
+  width: 99.999999993%;
+  float: right;
+}
+
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 216, ../scss/base/_768up.scss */
-.sidebar {
-  margin-top: 2.2em;
-}
-
 /*	.widgettitle {
 		border-bottom: 1px solid #444;
 		margin-bottom: 0.75em;
 	}*/
-/* line 225, ../scss/base/_768up.scss */
+/* line 232, ../scss/base/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 230, ../scss/base/_768up.scss */
+/* line 237, ../scss/base/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 238, ../scss/base/_768up.scss */
+/* line 245, ../scss/base/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -758,24 +786,6 @@ SIDEBARS & ASIDES
 /* recent-comments widget */
 /* search widget */
 /* text widget */
-/*********************
-FOOTER STYLES
-*********************/
-/*
-you'll probably need to do quite a bit
-of overriding here if you styled them for
-mobile. Make sure to double check these!
-*/
-/* line 346, ../scss/base/_768up.scss */
-.footer-links ul li {
-  /*
-  be careful with the depth of your menus.
-  it's very rare to have multi-depth menus in
-  the footer.
-  */
-}
-
-/* end .footer-links */
 /*
 ******************************
 * In Between Media Queries

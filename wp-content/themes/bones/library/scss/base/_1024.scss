@@ -7,13 +7,9 @@ NAVIGATION STYLES
 }
 
 .header-nav {
-  width: 563px;
+  width: 586px;
   font-size: $h2-size;
   margin: $base-space + 4 auto 0;
-}
-
-.mask .nav li:last-child a {
-  padding-right: 0px;
 }
 
 .main-nav-wrapper {
@@ -25,7 +21,7 @@ NAVIGATION STYLES
 
 .main-nav {
   border-top: 0;
-  padding: 24px 0 0 0;
+  padding: 19px 0 0 0;
   height: 52px;
     .nav li {
       border-right: 2px solid $brand-black;
@@ -55,13 +51,14 @@ NAVIGATION STYLES
 }
 
 .home #content {
-margin: 12px 0;
+margin: 0;
 }
 
 .social-nav {
   position: absolute;
   top: -6px;
   right: 0px;
+  margin: 15px auto 0;
 }
 
 
@@ -83,7 +80,7 @@ margin: 12px 0;
   h1 {
     font-size: 32px;
     span {
-      font-size: 52px;
+      font-size: $h1-size;
     }
   }
 }
@@ -108,26 +105,55 @@ margin: 12px 0;
 }
 
 .welcome-video {
-  @include twelvecol;
+  @include sixcol;
   @include first;
 }
 
 .instagram {
   @include sixcol;
-  @include first;
+  @include last;
 }
 
 .twitter {
   @include sixcol;
-  @include last;
+  @include first;
 }
 
 .recent-posts {
-  @include twelvecol;
-  @include first;
-
+  @include sixcol;
+  @include last;
 }
 
+/*
+******************************
+* Index Styles
+******************************
+*/
+
+.article-wrap {
+  @include eightcol;
+  @include first;
+}
+
+    .article-header {
+      @include fourcol;
+      @include first;
+    }
+
+    .entry-content {
+      @include eightcol;
+      @include last;
+    }
+
+.sidebar {
+  @include fourcol;
+  @include last;
+}
+
+.article-footer {
+  @include twelvecol;
+  @include first;
+}
 
 /*
 ******************************

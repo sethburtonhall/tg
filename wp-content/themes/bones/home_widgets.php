@@ -2,7 +2,7 @@
 
     <div id="more" class="more clearfix">
       <div class="donate">
-        <a href="/donate" title="Donate Now"><h1>DONATE NOW <span class="arrow">»</span></h1></a>
+        <a href="/donate" title="Donate Now"><h1>DONATE NOW <span data-icon="&#xe007;"</span></h1></a>
       </div>
 
       <div class="ticker-wrapper">

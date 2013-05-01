@@ -32,7 +32,7 @@ HEADER STYLES
 *********************/
 
 .header-nav {
-	width: 423px;
+	width: 429px;
   font-size: 21px;
   margin: $base-space + 10 auto 0;
   float: right;
@@ -55,19 +55,7 @@ NAVIGATION STYLES
 
 		a {
 			border-bottom: 0;
-
-			/*
-			you can use hover styles here even though this size
-			has the possibility of being a mobile device.
-			*/
-			&:hover, &:focus {
-				background-color: #dedede;
-
-			}
 		}
-
-		&:first-child {}
-		&:last-child {}
 
 		/*
 		plan your menus and drop-downs wisely.
@@ -180,41 +168,60 @@ SLIDER STYLES
 	@include first;
 }
 
-/*.newsletter-cta {
-	@include threecol;
-	@include first;
-}*/
 
-/*********************
-FOOTER STYLES
-*********************/
-/*.quick-links {
-  margin: 12px 10px 0 0;
+/*
+******************************
+* Index Styles
+******************************
+*/
+
+
+/*
+******************************
+* Single Page Styles
+******************************
+*/
+
+.single .article-wrap {
+  @include twelvecol;
+  @include first;
+}
+		.single .article-header {
+		  @include fourcol;
+		  @include first;
+		}
+
+		.single .entry-content {
+		  @include eightcol;
+		  @include last;
+		}
+
+.respond-form {
+	@include eightcol;
+	@include last;
 }
 
-.footer-nav {
-  margin: 12px 0;
-  li a {
-    line-height: 1em;
-  }
+
+/*
+******************************
+* Archive Styles
+******************************
+*/
+
+.sidebar {
+  @include twelvecol;
+  @include last;
 }
 
-.copyright {
-  text-align: right;
-  padding-right: 82px;
-  margin: 12px 0;
-}
 
-.footer-logo {
-  bottom: -16px;
-}*/
+
 
 /*********************
 SIDEBARS & ASIDES
 *********************/
 
 .sidebar {
-	margin-top: 2.2em;
+
 }
 
 /*	.widgettitle {
@@ -330,32 +337,6 @@ SIDEBARS & ASIDES
 	.textwidget {}
 	.widget_text {}
 	.textwidget p {}
-
-
-/*********************
-FOOTER STYLES
-*********************/
-
-/*
-you'll probably need to do quite a bit
-of overriding here if you styled them for
-mobile. Make sure to double check these!
-*/
-.footer-links {
-	ul {
-		li {
-			a {
-				&:hover {}
-			}
-			/*
-			be careful with the depth of your menus.
-			it's very rare to have multi-depth menus in
-			the footer.
-			*/
-			ul {}
-		}
-	}
-} /* end .footer-links */
 
 /*
 ******************************
