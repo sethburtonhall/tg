@@ -142,11 +142,6 @@ var check_it = function() {
     };
 };
 
-// $('#nav li a').click(function () {
-//     $('#nav li a').removeClass('active');
-//     $(this).parent('li').addClass('active');
-// });
-
 // FitVids.js
 $(document).ready(function(){
   $(".video").fitVids();

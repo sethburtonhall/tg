@@ -759,17 +759,12 @@ SIDEBARS & ASIDES
 		border-bottom: 1px solid #444;
 		margin-bottom: 0.75em;
 	}*/
-/* line 232, ../scss/base/_768up.scss */
-.widget {
-  padding: 0 10px;
-  margin: 2.2em 0;
-}
-/* line 237, ../scss/base/_768up.scss */
+/* line 235, ../scss/base/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 245, ../scss/base/_768up.scss */
+/* line 243, ../scss/base/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;

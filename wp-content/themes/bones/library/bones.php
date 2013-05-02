@@ -250,7 +250,25 @@ function tg_main_nav() {
 	));
 } /* end main nav */
 
-// the summer adventures menu
+// the about page menu
+function tg_about_page_nav() {
+  // display the wp3 menu if available
+    wp_nav_menu(array(
+      'container' => false,                           // remove nav container
+      'container_class' => 'menu clearfix',           // class of container (should you choose to use it)
+      'menu' => __( 'About Page Nav', 'bonestheme' ),  // nav name
+      'menu_class' => 'nav top-nav clearfix',         // adding custom nav class
+      'theme_location' => 'mainNav',                 // where it's located in the theme
+      'before' => '',                                 // before the menu
+        'after' => '',                                  // after the menu
+        'link_before' => '',                            // before each link
+        'link_after' => '',                             // after each link
+        'depth' => 0,                                   // limit the depth of the nav
+      'fallback_cb' => 'bones_main_nav_fallback'      // fallback function
+  ));
+} /* end about page nav */
+
+// the summer adventures page menu
 function tg_summer_adventures_page_nav() {
   // display the wp3 menu if available
     wp_nav_menu(array(
@@ -267,6 +285,60 @@ function tg_summer_adventures_page_nav() {
       'fallback_cb' => 'bones_main_nav_fallback'      // fallback function
   ));
 } /* end summer adventures page nav */
+
+// the weekend adventures page menu
+function tg_weekend_adventures_page_nav() {
+  // display the wp3 menu if available
+    wp_nav_menu(array(
+      'container' => false,                           // remove nav container
+      'container_class' => 'menu clearfix',           // class of container (should you choose to use it)
+      'menu' => __( 'Weekend Adventures Page Nav', 'bonestheme' ),  // nav name
+      'menu_class' => 'nav top-nav clearfix',         // adding custom nav class
+      'theme_location' => 'mainNav',                 // where it's located in the theme
+      'before' => '',                                 // before the menu
+        'after' => '',                                  // after the menu
+        'link_before' => '',                            // before each link
+        'link_after' => '',                             // after each link
+        'depth' => 0,                                   // limit the depth of the nav
+      'fallback_cb' => 'bones_main_nav_fallback'      // fallback function
+  ));
+} /* end weekend adventures page nav */
+
+// the support page menu
+function tg_support_page_nav() {
+  // display the wp3 menu if available
+    wp_nav_menu(array(
+      'container' => false,                           // remove nav container
+      'container_class' => 'menu clearfix',           // class of container (should you choose to use it)
+      'menu' => __( 'Support Page Nav', 'bonestheme' ),  // nav name
+      'menu_class' => 'nav top-nav clearfix',         // adding custom nav class
+      'theme_location' => 'mainNav',                 // where it's located in the theme
+      'before' => '',                                 // before the menu
+        'after' => '',                                  // after the menu
+        'link_before' => '',                            // before each link
+        'link_after' => '',                             // after each link
+        'depth' => 0,                                   // limit the depth of the nav
+      'fallback_cb' => 'bones_main_nav_fallback'      // fallback function
+  ));
+} /* end support page nav */
+
+// the resources page menu
+function tg_resources_page_nav() {
+  // display the wp3 menu if available
+    wp_nav_menu(array(
+      'container' => false,                           // remove nav container
+      'container_class' => 'menu clearfix',           // class of container (should you choose to use it)
+      'menu' => __( 'Resources Page Nav', 'bonestheme' ),  // nav name
+      'menu_class' => 'nav top-nav clearfix',         // adding custom nav class
+      'theme_location' => 'mainNav',                 // where it's located in the theme
+      'before' => '',                                 // before the menu
+        'after' => '',                                  // after the menu
+        'link_before' => '',                            // before each link
+        'link_after' => '',                             // after each link
+        'depth' => 0,                                   // limit the depth of the nav
+      'fallback_cb' => 'bones_main_nav_fallback'      // fallback function
+  ));
+} /* end resources page nav */
 
 // the footer menu (should you choose to use one)
 function tg_footer_nav() {

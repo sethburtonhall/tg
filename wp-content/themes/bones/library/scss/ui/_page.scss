@@ -3,6 +3,9 @@
 * Page Styles
 ******************************
 */
+.page {
+  margin-bottom: 80px;
+}
 
 .page .entry-content {
   font-family: 'gearedThin';
@@ -19,3 +22,36 @@
     }
   }
 }
+
+
+/*
+******************************
+* Page SubNav Styles
+******************************
+*/
+
+.article-header ul {
+  margin: 0 0 0 5px;
+  border-left: 3px solid $brand-orange;
+  padding-left: 15px;
+}
+
+.article-header ul li{
+  float: left;
+  clear: both;
+}
+
+.article-header ul li a {
+  display: block;
+  padding: 5px 15px 5px 0px;
+  font-family: 'gearedThin';
+  font-size: $h3-size;
+  font-weight: bold;
+  line-height: 1;
+  color: $brand-color;
+  }
+
+.article-header ul li a:focus,
+.article-header ul li a:hover {
+  color: $brand-darkGray;
+  }

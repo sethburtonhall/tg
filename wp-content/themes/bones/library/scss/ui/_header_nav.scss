@@ -34,11 +34,16 @@
   top: -2px;
 }
 
-.mask .nav li a{
-  color: $brand-black;  /* Fallback: assume this color ON TOP of image */
-  background: url(http://localhost:8888/wp-content/themes/bones/library/images/header-nav-mask.jpg) no-repeat;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.header-nav .nav {
+  li a { 
+    color: darken($brand-orange, 5%);
+    text-shadow: 1px 1px $brand-black;
+    &:hover {
+      color: $brand-color;
+    }
+  }
+  li.current-menu-item a {
+    color: $brand-color;
+  }
 }
-
 

@@ -153,7 +153,7 @@ and more scalable.
 	li.current_page_item,
 	li.current-page-ancestor {
 
-		a {}
+		a { color: $brand-darkGray;}
 
 	}  /* end current highlighters */
 
@@ -708,6 +708,8 @@ SIDEBARS & ASIDES
 	.widgettitle {}
 
 	.widget {
+		padding: 0 10px;
+		margin: 2.2em 0;
 
 		ul {
 

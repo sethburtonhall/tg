@@ -208,7 +208,6 @@ function bones_wpsearch($form) {
 register_nav_menus( array(
 	'headerNav' => __( 'Header Navigation', 'bones' ),
 	'mainNav' => __( 'Main Navigation', 'bones' ),
-	'summerNav' => __( 'Summer Adventures Page Navigation', 'bones' ),
 	'footerNav' => __( 'Footer Navigation', 'bones' ),
 ) );
 

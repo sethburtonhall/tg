@@ -1,0 +1,18 @@
+.error404 {
+  .article-wrap {
+    @include twelvecol;
+    @include first;
+  }
+  .article-header {
+    @include twelvecol;
+    @include first;
+  }
+  .entry-content {
+    @include twelvecol;
+    @include first;
+  }
+}
+
+#post-not-found {
+  margin-bottom: 60px;
+}

@@ -61,7 +61,7 @@
 						</div>
 
 						<div class="sevencol last clearfix">
-							<nav role="navigation" class="header-nav mask">
+							<nav role="navigation" class="header-nav">
 								<?php tg_header_nav(); ?>
 							</nav>
 						</div>

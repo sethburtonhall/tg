@@ -14,10 +14,39 @@
 
 									<h1 class="page-title" itemprop="headline"><?php echo get_the_title($post->post_parent);?><span data-icon="&#xe007;"></span></h1>
 
+									<!-- what is tg nav -->
 									<?php
-									if (is_page('summer-adventures/')) {
-										tg_summer_adventures_page_nav();
-									}
+										if (is_page(9) || in_array(9, $post->ancestors)) {
+											tg_about_page_nav();
+										}
+									?>
+
+									<!-- summer adventures nav -->
+									<?php
+										if (is_page(10) || in_array(10, $post->ancestors)) {
+											tg_summer_adventures_page_nav();
+										}
+									?>
+
+									<!-- weekend adventures nav -->
+									<?php
+										if (is_page(11) || in_array(11, $post->ancestors)) {
+											tg_weekend_adventures_page_nav();
+										}
+									?>
+
+									<!-- support/donate nav -->
+									<?php
+										if (is_page(12) || in_array(12, $post->ancestors)) {
+											tg_support_page_nav();
+										}
+									?>
+
+									<!-- resources nav -->
+									<?php
+										if (is_page(13) || in_array(13, $post->ancestors)) {
+											tg_resources_page_nav();
+										}
 									?>
 
 								</header> <!-- end article header -->

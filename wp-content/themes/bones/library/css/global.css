@@ -876,6 +876,12 @@ and more scalable.
 .nav li ul.children li a {
   padding-left: 30px;
 }
+/* line 156, ../scss/base/_mobile_first.scss */
+.nav li.current-menu-item a,
+.nav li.current_page_item a,
+.nav li.current-page-ancestor a {
+  color: #565656;
+}
 
 /* end .nav */
 /*********************
@@ -1253,7 +1259,12 @@ COMMENT FORM STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 714, ../scss/base/_mobile_first.scss */
+/* line 710, ../scss/base/_mobile_first.scss */
+.widget {
+  padding: 0 10px;
+  margin: 2.2em 0;
+}
+/* line 716, ../scss/base/_mobile_first.scss */
 .widget ul li {
   /* deep nesting */
 }
@@ -1261,7 +1272,7 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 735, ../scss/base/_mobile_first.scss */
+/* line 737, ../scss/base/_mobile_first.scss */
 .footer {
   clear: both;
 }
@@ -1276,21 +1287,26 @@ override these styles for the desktop
 view.
 */
 /* end .footer-links */
+/* line 1, ../scss/ui/_typography.scss */
+.current {
+  color: #565656;
+}
+
 /*********************
 LINK STYLES
 *********************/
-/* line 5, ../scss/ui/_typography.scss */
+/* line 10, ../scss/ui/_typography.scss */
 a, a:visited {
   color: #729251;
   /* on hover */
   /* on click */
   /* mobile tap color */
 }
-/* line 9, ../scss/ui/_typography.scss */
+/* line 14, ../scss/ui/_typography.scss */
 a:hover, a:focus, a:visited:hover, a:visited:focus {
   color: #565656;
 }
-/* line 19, ../scss/ui/_typography.scss */
+/* line 24, ../scss/ui/_typography.scss */
 a:link, a:visited:link {
   /*
   this highlights links on iPhones/iPads.
@@ -1303,43 +1319,43 @@ a:link, a:visited:link {
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
-/* line 33, ../scss/ui/_typography.scss */
+/* line 38, ../scss/ui/_typography.scss */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-rendering: optimizelegibility;
   font-weight: 500;
   /* removing text decoration from all headline links */
 }
-/* line 38, ../scss/ui/_typography.scss */
+/* line 43, ../scss/ui/_typography.scss */
 h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
   text-decoration: none;
 }
 
-/* line 43, ../scss/ui/_typography.scss */
+/* line 48, ../scss/ui/_typography.scss */
 h1, .h1 {
   font-size: 2.5em;
   line-height: 1.333em;
 }
 
-/* line 48, ../scss/ui/_typography.scss */
+/* line 53, ../scss/ui/_typography.scss */
 h2, .h2 {
   font-size: 1.75em;
   line-height: 1.4em;
   margin-bottom: 0.375em;
 }
 
-/* line 54, ../scss/ui/_typography.scss */
+/* line 59, ../scss/ui/_typography.scss */
 h3, .h3 {
   font-size: 1.125em;
 }
 
-/* line 58, ../scss/ui/_typography.scss */
+/* line 63, ../scss/ui/_typography.scss */
 h4, .h4 {
   font-size: 1.1em;
   font-weight: 700;
 }
 
-/* line 63, ../scss/ui/_typography.scss */
+/* line 68, ../scss/ui/_typography.scss */
 h5, .h5 {
   font-size: 0.846em;
   line-height: 2.09em;
@@ -1347,23 +1363,23 @@ h5, .h5 {
   letter-spacing: 2px;
 }
 
-/* line 71, ../scss/ui/_typography.scss */
+/* line 76, ../scss/ui/_typography.scss */
 h3 {
   font-size: 24px;
   font-family: 'gearedBold';
   color: #1e2217;
 }
 
-/* line 77, ../scss/ui/_typography.scss */
+/* line 82, ../scss/ui/_typography.scss */
 a {
   color: #729251;
   text-decoration: none;
 }
-/* line 80, ../scss/ui/_typography.scss */
+/* line 85, ../scss/ui/_typography.scss */
 a:hover {
   color: #565656;
 }
-/* line 83, ../scss/ui/_typography.scss */
+/* line 88, ../scss/ui/_typography.scss */
 a:visited {
   color: #729251;
 }
@@ -1373,23 +1389,63 @@ a:visited {
 * Page Styles
 ******************************
 */
-/* line 7, ../scss/ui/_page.scss */
+/* line 6, ../scss/ui/_page.scss */
+.page {
+  margin-bottom: 80px;
+}
+
+/* line 10, ../scss/ui/_page.scss */
 .page .entry-content {
   font-family: 'gearedThin';
   font-size: 27px;
 }
-/* line 10, ../scss/ui/_page.scss */
+/* line 13, ../scss/ui/_page.scss */
 .page .entry-content a {
   font-family: 'haymaker';
   color: #729251;
   text-decoration: none;
 }
-/* line 14, ../scss/ui/_page.scss */
+/* line 17, ../scss/ui/_page.scss */
 .page .entry-content a [data-icon] {
   color: #d98339;
   position: relative;
   top: 4px;
   right: -10px;
+}
+
+/*
+******************************
+* Page SubNav Styles
+******************************
+*/
+/* line 33, ../scss/ui/_page.scss */
+.article-header ul {
+  margin: 0 0 0 5px;
+  border-left: 3px solid #d98339;
+  padding-left: 15px;
+}
+
+/* line 39, ../scss/ui/_page.scss */
+.article-header ul li {
+  float: left;
+  clear: both;
+}
+
+/* line 44, ../scss/ui/_page.scss */
+.article-header ul li a {
+  display: block;
+  padding: 5px 15px 5px 0px;
+  font-family: 'gearedThin';
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1;
+  color: #729251;
+}
+
+/* line 55, ../scss/ui/_page.scss */
+.article-header ul li a:focus,
+.article-header ul li a:hover {
+  color: #565656;
 }
 
 /*blog pages*/
@@ -1516,6 +1572,55 @@ a:visited {
 
 /*
 ******************************
+* Contact Form Styles
+******************************
+*/
+/* line 123, ../scss/ui/_general.scss */
+.contact-form label span {
+  display: none;
+}
+
+/* line 127, ../scss/ui/_general.scss */
+.contact-form label {
+  font-size: 20px;
+}
+
+/* line 131, ../scss/ui/_general.scss */
+input[type='email'] {
+  padding: 8px;
+}
+
+/* line 135, ../scss/ui/_general.scss */
+input[type="submit"] {
+  padding: 10px;
+  font-size: 16px;
+  background: #729251;
+  color: white;
+}
+
+/* line 142, ../scss/ui/_general.scss */
+input, textarea {
+  font-size: 20px;
+}
+
+/* line 146, ../scss/ui/_general.scss */
+.form-error h3 {
+  color: red;
+}
+
+/* line 149, ../scss/ui/_general.scss */
+.form-errors .form-error-message {
+  font-size: 20px;
+}
+
+/* line 153, ../scss/ui/_general.scss */
+a.application {
+  font-size: 20px;
+  text-decoration: underline !important;
+}
+
+/*
+******************************
 * Blog Index Styles
 ******************************
 */
@@ -1560,12 +1665,8 @@ a:visited {
 .respond-form .comments-logged-in-as {
   font-family: 'geared';
 }
-/* line 16, ../scss/ui/_comments.scss */
-.respond-form input[type="submit"] {
-  padding: 12px;
-}
 
-/* line 21, ../scss/ui/_comments.scss */
+/* line 18, ../scss/ui/_comments.scss */
 .respond-form form textarea {
   font-family: 'gearedThin';
 }
@@ -1580,7 +1681,7 @@ a:visited {
   font-family: 'gearedBold';
 }
 
-/* line 1, ../scss/ui/_sidebar.scss */
+/* line 3, ../scss/ui/_sidebar.scss */
 .widgettitle {
   font-family: 'gearedBold';
 }
@@ -1590,25 +1691,51 @@ a:visited {
 * Search Widget
 ******************************
 */
-/* line 10, ../scss/ui/_sidebar.scss */
+/* line 12, ../scss/ui/_sidebar.scss */
 .screen-reader-text {
   display: none;
 }
 
-/* line 14, ../scss/ui/_sidebar.scss */
+/* line 16, ../scss/ui/_sidebar.scss */
 #s {
+  width: 70%;
   padding: 10px;
   margin-right: 7px;
 }
 
-/* line 19, ../scss/ui/_sidebar.scss */
+/* line 22, ../scss/ui/_sidebar.scss */
 #searchsubmit {
-  padding: 11px;
+  width: 25%;
 }
 
-/* line 23, ../scss/ui/_sidebar.scss */
-#searchsubmit {
-  padding: 12px;
+/* line 2, ../scss/ui/_404.scss */
+.error404 .article-wrap {
+  position: relative;
+  float: left;
+  margin-left: 2.762430939%;
+  width: 99.999999993%;
+  margin-left: 0;
+}
+/* line 6, ../scss/ui/_404.scss */
+.error404 .article-header {
+  position: relative;
+  float: left;
+  margin-left: 2.762430939%;
+  width: 99.999999993%;
+  margin-left: 0;
+}
+/* line 10, ../scss/ui/_404.scss */
+.error404 .entry-content {
+  position: relative;
+  float: left;
+  margin-left: 2.762430939%;
+  width: 99.999999993%;
+  margin-left: 0;
+}
+
+/* line 16, ../scss/ui/_404.scss */
+#post-not-found {
+  margin-bottom: 60px;
 }
 
 /* line 1, ../scss/ui/_header.scss */
@@ -1695,13 +1822,18 @@ a:visited {
   top: -2px;
 }
 
-/* line 37, ../scss/ui/_header_nav.scss */
-.mask .nav li a {
-  color: #1e2217;
-  /* Fallback: assume this color ON TOP of image */
-  background: url(http://localhost:8888/wp-content/themes/bones/library/images/header-nav-mask.jpg) no-repeat;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+/* line 38, ../scss/ui/_header_nav.scss */
+.header-nav .nav li a {
+  color: #d07628;
+  text-shadow: 1px 1px #1e2217;
+}
+/* line 41, ../scss/ui/_header_nav.scss */
+.header-nav .nav li a:hover {
+  color: #729251;
+}
+/* line 45, ../scss/ui/_header_nav.scss */
+.header-nav .nav li.current-menu-item a {
+  color: #729251;
 }
 
 /*This includes ... responsive-nav.js v1.0.14 by @viljamis */
@@ -3247,17 +3379,12 @@ you can add resource intensive styles.
   		border-bottom: 1px solid #444;
   		margin-bottom: 0.75em;
   	}*/
-  /* line 232, ../scss/base/_768up.scss */
-  .widget {
-    padding: 0 10px;
-    margin: 2.2em 0;
-  }
-  /* line 237, ../scss/base/_768up.scss */
+  /* line 235, ../scss/base/_768up.scss */
   .widget ul li {
     margin-bottom: 0.75em;
     /* deep nesting */
   }
-  /* line 245, ../scss/base/_768up.scss */
+  /* line 243, ../scss/base/_768up.scss */
   .widget ul li ul {
     margin-top: 0.75em;
     padding-left: 1em;
@@ -3454,6 +3581,15 @@ TABLET LANDSCAPE
   ******************************
   */
   /* line 133, ../scss/base/_1024.scss */
+  .page .article-wrap {
+    position: relative;
+    float: left;
+    margin-left: 2.762430939%;
+    width: 99.999999993%;
+    margin-left: 0;
+  }
+
+  /* line 138, ../scss/base/_1024.scss */
   .article-wrap {
     position: relative;
     float: left;
@@ -3462,7 +3598,7 @@ TABLET LANDSCAPE
     margin-left: 0;
   }
 
-  /* line 138, ../scss/base/_1024.scss */
+  /* line 143, ../scss/base/_1024.scss */
   .article-header {
     position: relative;
     float: left;
@@ -3471,7 +3607,7 @@ TABLET LANDSCAPE
     margin-left: 0;
   }
 
-  /* line 143, ../scss/base/_1024.scss */
+  /* line 148, ../scss/base/_1024.scss */
   .entry-content {
     position: relative;
     float: left;
@@ -3480,7 +3616,7 @@ TABLET LANDSCAPE
     float: right;
   }
 
-  /* line 148, ../scss/base/_1024.scss */
+  /* line 153, ../scss/base/_1024.scss */
   .sidebar {
     position: relative;
     float: left;
@@ -3489,7 +3625,7 @@ TABLET LANDSCAPE
     float: right;
   }
 
-  /* line 153, ../scss/base/_1024.scss */
+  /* line 158, ../scss/base/_1024.scss */
   .article-footer {
     position: relative;
     float: left;
@@ -3505,18 +3641,18 @@ TABLET LANDSCAPE
   */
 }
 @media only screen and (min-width: 1024px) and (min-width: 1204px) {
-  /* line 167, ../scss/base/_1024.scss */
+  /* line 172, ../scss/base/_1024.scss */
   .donate {
     margin-top: 0;
   }
 
-  /* line 171, ../scss/base/_1024.scss */
+  /* line 176, ../scss/base/_1024.scss */
   .donate h1 {
     font-size: 42px;
     text-align: center;
   }
 
-  /* line 176, ../scss/base/_1024.scss */
+  /* line 181, ../scss/base/_1024.scss */
   .ticker-wrapper {
     position: relative;
     float: left;
@@ -3525,7 +3661,7 @@ TABLET LANDSCAPE
     margin-left: 0;
   }
 
-  /* line 181, ../scss/base/_1024.scss */
+  /* line 186, ../scss/base/_1024.scss */
   .newsletter {
     width: 53.618785%;
     margin-left: 0px;
@@ -3697,14 +3833,14 @@ be set to display none.
 * Global Styles
 ******************************
 */
-/* line 37, ../scss/global.scss */
+/* line 38, ../scss/global.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 43, ../scss/global.scss */
+/* line 44, ../scss/global.scss */
 body {
   position: relative;
   background-color: #fff;
@@ -3715,14 +3851,14 @@ body {
 * header and widget wrapper on all pages
 ******************************************
 */
-/* line 53, ../scss/global.scss */
+/* line 54, ../scss/global.scss */
 .header {
   -moz-box-shadow: 0px 0px 10px 7px #95988a;
   -webkit-box-shadow: 0px 0px 10px 7px #95988a;
   box-shadow: 0px 0px 10px 7px #95988a;
 }
 
-/* line 58, ../scss/global.scss */
+/* line 59, ../scss/global.scss */
 .widget-wrapper {
   -moz-box-shadow: 0px 0px 10px 7px #95988a;
   -webkit-box-shadow: 0px 0px 10px 7px #95988a;
@@ -3734,13 +3870,13 @@ body {
 * header and widget wrapper default overrides
 **********************************************
 */
-/* line 70, ../scss/global.scss */
+/* line 71, ../scss/global.scss */
 .home .header {
   -moz-box-shadow: 0px;
   -webkit-box-shadow: 0px;
   box-shadow: 0px;
 }
-/* line 75, ../scss/global.scss */
+/* line 76, ../scss/global.scss */
 .home .widget-wrapper {
   -moz-box-shadow: 0px;
   -webkit-box-shadow: 0px;
