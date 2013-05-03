@@ -533,26 +533,13 @@ POSTS & CONTENT STYLES
     bottom: -22px;
   }
 }
-/******************************************************************
-Site Name:
-Author:
-
-Stylesheet: Tablet & Small Desktop Stylesheet
-
-Here's where you can start getting into the good stuff.
-This size will work on iPads, other tablets, and desktops.
-So you can start working with more styles, background images,
-and other resources. You'll also notice the grid starts to
-come into play. Have fun!
-
-******************************************************************/
 /*********************
 GENERAL STYLES
 *********************/
 /*********************
 LAYOUT & GRID STYLES
 *********************/
-/* line 26, ../scss/base/_768up.scss */
+/* line 11, ../scss/base/_768up.scss */
 .wrap {
   max-width: 1140px;
 }
@@ -560,7 +547,7 @@ LAYOUT & GRID STYLES
 /*********************
 HEADER STYLES
 *********************/
-/* line 34, ../scss/base/_768up.scss */
+/* line 19, ../scss/base/_768up.scss */
 .header-nav {
   width: 429px;
   font-size: 21px;
@@ -568,79 +555,20 @@ HEADER STYLES
   float: right;
 }
 
-/* line 41, ../scss/base/_768up.scss */
+/* line 26, ../scss/base/_768up.scss */
 .header-gradient {
   height: 120px;
 }
 
-/* line 45, ../scss/base/_768up.scss */
+/* line 30, ../scss/base/_768up.scss */
 .logo {
-  margin: 20px 0;
+  margin: 20px 0 17px 0;
 }
 
-/*********************
-NAVIGATION STYLES
-*********************/
-/* line 52, ../scss/base/_768up.scss */
-.nav li {
-  float: left;
-  position: relative;
-  /*
-  plan your menus and drop-downs wisely.
-  */
-  /* showing sub-menus */
-}
-/* line 56, ../scss/base/_768up.scss */
-.nav li a {
-  border-bottom: 0;
-}
-/* line 64, ../scss/base/_768up.scss */
-.nav li ul.sub-menu,
-.nav li ul.children {
-  margin-top: 0;
-  border: 1px solid #ccc;
-  border-top: 0;
-  position: absolute;
-  display: none;
-  z-index: 8999;
-  /* highlight sub-menu current page */
-}
-/* line 72, ../scss/base/_768up.scss */
-.nav li ul.sub-menu li,
-.nav li ul.children li {
-  /*
-  if you need to go deeper, go nuts
-  just remember deeper menus suck
-  for usability. k, bai.
-  */
-}
-/* line 74, ../scss/base/_768up.scss */
-.nav li ul.sub-menu li a,
-.nav li ul.children li a {
-  padding-left: 10px;
-  border-right: 0;
-  display: block;
-  width: 180px;
-  border-bottom: 1px solid #ccc;
-}
-/* line 91, ../scss/base/_768up.scss */
-.nav li ul.sub-menu li:last-child a,
-.nav li ul.children li:last-child a {
-  border-bottom: 0;
-}
-/* line 113, ../scss/base/_768up.scss */
-.nav li:hover ul {
-  top: auto;
-  display: block;
-}
-
-/* end .menu .nav ul li */
-/* highlight current page */
-/* end current highlighters */
 /*********************
 SLIDER STYLES
 *********************/
-/* line 131, ../scss/base/_768up.scss */
+/* line 38, ../scss/base/_768up.scss */
 .flex-caption {
   bottom: -40px;
   padding: 40px;
@@ -649,17 +577,17 @@ SLIDER STYLES
 
 /*
 ******************************
-* Home Widgets
+* HOME WIDGETS
 ******************************
 */
-/* line 144, ../scss/base/_768up.scss */
+/* line 50, ../scss/base/_768up.scss */
 #more {
   margin: 0px;
   overflow: hidden;
   /*donate and ticker modules hack*/
 }
 
-/* line 149, ../scss/base/_768up.scss */
+/* line 55, ../scss/base/_768up.scss */
 .donate {
   width: 50%;
   float: left;
@@ -668,12 +596,12 @@ SLIDER STYLES
   margin-bottom: -30px;
   /*donate and ticker modules hack*/
 }
-/* line 154, ../scss/base/_768up.scss */
+/* line 60, ../scss/base/_768up.scss */
 .donate h1 {
   text-align: center;
 }
 
-/* line 159, ../scss/base/_768up.scss */
+/* line 65, ../scss/base/_768up.scss */
 .ticker-wrapper {
   width: 50%;
   float: right;
@@ -683,7 +611,7 @@ SLIDER STYLES
   /*donate and ticker modules hack*/
 }
 
-/* line 166, ../scss/base/_768up.scss */
+/* line 72, ../scss/base/_768up.scss */
 .newsletter {
   position: relative;
   float: left;
@@ -694,15 +622,10 @@ SLIDER STYLES
 
 /*
 ******************************
-* Index Styles
+* SINGLE PAGE STYLES
 ******************************
 */
-/*
-******************************
-* Single Page Styles
-******************************
-*/
-/* line 185, ../scss/base/_768up.scss */
+/* line 83, ../scss/base/_768up.scss */
 .single .article-wrap {
   position: relative;
   float: left;
@@ -711,7 +634,7 @@ SLIDER STYLES
   margin-left: 0;
 }
 
-/* line 189, ../scss/base/_768up.scss */
+/* line 87, ../scss/base/_768up.scss */
 .single .article-header {
   position: relative;
   float: left;
@@ -720,7 +643,7 @@ SLIDER STYLES
   margin-left: 0;
 }
 
-/* line 194, ../scss/base/_768up.scss */
+/* line 92, ../scss/base/_768up.scss */
 .single .entry-content {
   position: relative;
   float: left;
@@ -729,7 +652,7 @@ SLIDER STYLES
   float: right;
 }
 
-/* line 199, ../scss/base/_768up.scss */
+/* line 97, ../scss/base/_768up.scss */
 .respond-form {
   position: relative;
   float: left;
@@ -740,10 +663,10 @@ SLIDER STYLES
 
 /*
 ******************************
-* Archive Styles
+* ARCHIVE STYLES
 ******************************
 */
-/* line 211, ../scss/base/_768up.scss */
+/* line 108, ../scss/base/_768up.scss */
 .sidebar {
   position: relative;
   float: left;
@@ -759,12 +682,12 @@ SIDEBARS & ASIDES
 		border-bottom: 1px solid #444;
 		margin-bottom: 0.75em;
 	}*/
-/* line 235, ../scss/base/_768up.scss */
+/* line 129, ../scss/base/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 243, ../scss/base/_768up.scss */
+/* line 137, ../scss/base/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -783,7 +706,7 @@ SIDEBARS & ASIDES
 /* text widget */
 /*
 ******************************
-* In Between Media Queries
+* IN BETWEEN MEDIA QUERIES
 ******************************
 */
 /******************************************************************

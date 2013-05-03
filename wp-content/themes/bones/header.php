@@ -34,9 +34,6 @@
 		<?php wp_head(); ?>
 		<!-- end of wordpress head -->
 
-		<script src="<?php echo get_stylesheet_directory_uri() ?>/library/js/libs/responsive-nav.js"></script>
-		<script src="<?php echo get_stylesheet_directory_uri() ?>/library/js/libs/jquery.flexslider.js"></script>
-
 		<!-- drop Google Analytics Here -->
 		
 		<!-- end analytics -->
@@ -67,24 +64,36 @@
 						</div>
 
 						<div class="twelvecol first">
-							<div class="main-nav-wrapper">
-								<nav id="nav" role="navigation" class="main-nav">
-									<?php tg_main_nav(); ?>
-									<div class="social-nav">
-										<ul>
-											<li><a href="http://instagram.com/traininggroundcolorado" target="_blank" title="Instagram" class="icon-instagram"></a></li>
-											<li><a href="https://twitter.com/Training_Ground" target="_blank" title="Twitter" class="icon-twitter"></a></li>
-											<li><a href="https://www.facebook.com/ColoradoTG" target="_blank" title="Facebook" class="icon-facebook"></a></li>
-											<li><a href="http://vimeo.com/user1207351" target="_blank" title="Vimeo" class="icon-vimeo"></a></li>
-											<li><a href="http://www.flickr.com/photos/trainingground/" target="_blank" title="Flickr" class="icon-flickr"></a></li>
-											<li><a href="http://trainingground.tumblr.com/" target="_blank" title="Tumblr" class="icon-tumblr"></a></li>
-											<li><a href="#more-info" title="More" class="icon-more"></a></li>
-										</ul>
-									</div>	
-								</nav>
 
+							<!-- original goes here -->
+								<div class="navbar">
+								  <div class="navbar-inner">
+								    <div id="nav" role="navigation" class="main-nav container">
+								 
+								      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+								      <p class="toggle" data-toggle="collapse" data-target=".nav-collapse">Menu</p>
+								 
+								      <!-- Everything you want hidden at 940px or less, place within here -->
+								      <div class="nav-collapse collapse">
+								        <!-- .nav, .navbar-search, .navbar-form, etc -->
+								        <?php tg_main_nav(); ?>
+												<div class="social-nav">
+													<ul>
+														<li><a href="http://instagram.com/traininggroundcolorado" target="_blank" title="Instagram" class="icon-instagram"></a></li>
+														<li><a href="https://twitter.com/Training_Ground" target="_blank" title="Twitter" class="icon-twitter"></a></li>
+														<li><a href="https://www.facebook.com/ColoradoTG" target="_blank" title="Facebook" class="icon-facebook"></a></li>
+														<li><a href="http://vimeo.com/user1207351" target="_blank" title="Vimeo" class="icon-vimeo"></a></li>
+														<li><a href="http://www.flickr.com/photos/trainingground/" target="_blank" title="Flickr" class="icon-flickr"></a></li>
+														<li><a href="http://trainingground.tumblr.com/" target="_blank" title="Tumblr" class="icon-tumblr"></a></li>
+														<li><a href="#more-info" title="More" class="icon-more"></a></li>
+													</ul>
+												</div>	
+								      </div>
+								 
+								    </div>
+								  </div>
+								</div>
 
-							</div>
 						</div>
 
 

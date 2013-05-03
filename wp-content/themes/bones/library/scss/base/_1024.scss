@@ -1,6 +1,9 @@
 /*********************
 NAVIGATION STYLES
 *********************/
+.nav {
+  margin: 10px 0;
+}
 
 .header-gradient {
   height: 110px;
@@ -12,43 +15,106 @@ NAVIGATION STYLES
   margin: $base-space + 4 auto 0;
 }
 
-.main-nav-wrapper {
-  background: transparent;
-  margin: 0;
-  font-size: 1em;
-  border-top: 0px;
-}
-
 .main-nav {
   border-top: 0;
-  padding: 19px 0 0 0;
-  height: 52px;
-    .nav li {
-      border-right: 2px solid $brand-black;
-     }
-}
+  padding: 0;
+  .nav > li {
+    float: left;
+    position: relative;
+    margin-left: 5px;
+    padding: 10px 0 10px 0px;
+    &:hover {
+      background-color: $brand-black;
+      padding-bottom: 20px;
+      margin-bottom: -20px;
+      > a {
+        color: $brand-white;
+      }
+    }
+    a {
+      border-right: 2px solid rgb(30, 34, 23);
+      border-bottom: 0;
+    }
 
-#nav ul li {
-  display: inline-block;
-  float: left;
-  clear: none;
-  a {
-    padding: 7px 9px;
-    border-bottom: 0px;
-  }
-  &:first-child a {
-  padding-left: 0px;
-  }
-}
+    /*
+    plan your menus and drop-downs wisely.
+    */
+    ul.sub-menu {
+      width: 200px;
+      margin-top: 20px;
+      border: 1px solid #ccc;
+      border-top: 0;
+      position: absolute;
+      display: none;
+      z-index: 8999;
+      background-color: $brand-black;
+      border: 0px;
 
-.js #nav {
-  position: relative;
-  max-height: none;
-}
+      li {
+        float: left;
+        clear: both;
+        padding: 10px 0 10px 2px;
+        a {
+          font-size: 14px;
+          padding: 0 0 0 10px;
+          border-right: 0;
+          display: block;
+          color: $brand-color;
+          text-align: left;
 
-#nav-toggle {
-  display: none;
-}
+          &:hover,
+          &:focus {
+            color: $brand-white;
+          }
+
+          &:link {}
+        }
+
+        &:first-child {}
+
+        &:last-child {
+
+          a {
+            border-bottom: 0;
+          }
+        }
+
+        /*
+        if you need to go deeper, go nuts
+        just remember deeper menus suck
+        for usability. k, bai.
+        */
+        ul {}
+      }
+
+      /* highlight sub-menu current page */
+      li.current-menu-item,
+      li.current_page_item,
+      li.current-page-ancestor {
+        a {
+          color: $brand-white;
+        }
+      }
+    }
+
+    /* showing sub-menus */
+    &:hover ul {
+      top: auto;
+      display: block;
+    }
+
+  } /* end .nav ul li */
+
+  /* highlight current page */
+  li.current-menu-item,
+  li.current_page_item,
+  li.current-page-ancestor {
+      background-color: $brand-black;
+    a {
+      color: $brand-white;
+    }
+  } /* end current highlighters */
+} /* end .main-nav */
 
 .home #content {
 margin: 0;
@@ -58,9 +124,8 @@ margin: 0;
   position: absolute;
   top: -6px;
   right: 0px;
-  margin: 15px auto 0;
+  margin: 0 auto;
 }
-
 
 /*
 ******************************
@@ -126,7 +191,7 @@ margin: 0;
 
 /*
 ******************************
-* Index Styles
+* INDEX STYLES
 ******************************
 */
 
@@ -162,7 +227,7 @@ margin: 0;
 
 /*
 ******************************
-* In Between Media Queries
+* IN BETWEEN MEDIA QUERIES
 ******************************
 */
 

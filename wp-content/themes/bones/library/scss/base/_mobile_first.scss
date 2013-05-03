@@ -1,16 +1,3 @@
-/******************************************************************
-Site Name:
-Author:
-
-Stylesheet: Base Mobile Stylesheet
-
-Be light and don't over style since everything here will be
-loaded by mobile devices. You want to keep it as minimal as
-possible. This is called at the top of the main stylsheet
-and will be used across all viewports.
-
-******************************************************************/
-
 /*********************
 GENERAL STYLES
 *********************/
@@ -129,7 +116,9 @@ and more scalable.
 			li {
 
 				a {
+					border: 0px;
 					padding-left: 30px;
+					line-height: 1em;
 
 					&:hover,
 					&:focus {}

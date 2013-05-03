@@ -68,21 +68,6 @@ jQuery(document).ready(function($) {
 	
 // add all your scripts here
 
-
-// responsive-nav.js
-var navigation = responsiveNav("#nav", {
-  animate: true, // Boolean: Use CSS3 transitions, true or false
-  transition: 100, // Integer: Speed of the transition, in milliseconds
-  label: "Menu", // String: Label for the navigation toggle
-  insert: "before", // String: Insert the toggle before or after the navigation
-  customToggle: "", // Selector: Specify the ID of a custom toggle
-  openPos: "relative", // String: Position of the opened nav, relative or static
-  jsClass: "js", // String: 'JS enabled' class which is added to <html> el
-  init: function(){}, // Function: Init callback
-  open: function(){}, // Function: Open callback
-  close: function(){} // Function: Close callback
-});
-
 // flexslider.js
 $(window).load(function() {
   // The slider being synced must be initialized first
@@ -142,15 +127,13 @@ var check_it = function() {
     };
 };
 
-// FitVids.js
-$(document).ready(function(){
-  $(".video").fitVids();
-});
-
 // Last Child's
 
 // Header Nav :last-child
 $(".header-nav ul li:last-child a").css('padding-right', '0px');
+
+// Main Nav :last-child
+$(".main-nav .nav > li:last-child a").css('border-right', '0px');
 
 // Instagram Widget :nth-child
 $("ul.wpinstagram li:nth-child(3n - 3) a img").attr('id', 'last-child');

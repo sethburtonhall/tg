@@ -202,7 +202,11 @@ function bones_wpsearch($form) {
 } // don't remove this bracket!
 
 
-// Custom Training Ground Functions
+/*
+***********************************
+* Custom Training Ground Functions
+***********************************
+*/
 
 // Add navigation
 register_nav_menus( array(
